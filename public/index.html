@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YVVNR2QNZ7">	</script>
+		<script>
+		  if ("serviceWorker" in navigator) {
+	      navigator.serviceWorker.register("/sw.js", {scope: "/",})
+	      	.then(registration => {
+	      		if (registration.installing) {
+			        console.log("Service worker installing");
+			      } else if (registration.waiting) {
+			        console.log("Service worker installed");
+			      } else if (registration.active) {
+			        console.log("Service worker active");
+			      }
+	      	})
+	      	.catch(error => console.error(`Registration failed with ${error}`))
+	      }
+
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-YVVNR2QNZ7');
+		</script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="description" content="Want your app to work for customers in remote regions? Find out how my services can help your app perform offline and off the grid.">
+
+		<meta charset="UTF-8">
+
+		<title>Lewis Campbell Technologies</title>
+		<link rel="stylesheet" type="text/css" href="new.css">
+		<link rel="manifest" href="manifest.json">
+		<link rel="apple-touch-icon" href="img/icon/img192.png">
+
+		<link rel="shortcut icon" type="image/png" href="/img/icon/icon32.png"/>
+		<meta name="theme-color" content="#80D4FF"/>
+	</head>
+
+	<body>
+		<div id="hero">
+			<nav>
+				<a href="/" id="home" aria-label="Home Page">
+					<img
+						src="img/icon/icon46.webp"
+						alt="Lewis Campbell Technologies Logo">
+					</img>
+
+				</a>
+				<span id="links">
+					<a 
+						href="https://www.linkedin.com/in/lewisandrewcampbell"
+						aria-label="LinkedIn"
+					>
+						<img src="img/icon/tabler-brand-linkedin.svg" alt="LinkedIn Logo">
+					</a>
+					<a
+						href=https://www.youtube.com/@LewisCampbellTech
+						aria-label="YouTube"
+					>
+						<img src="img/icon/tabler-brand-youtube.svg" alt="YouTube Logo">
+					</a>
+					<a
+						href="https://github.com/LAC-Tech"
+						aria-label="GitHub"
+					>
+						<img src="img/icon/tabler-brand-github.svg" alt="GitHub Logo">
+					</a>
+					<a href="#about">About</a>
+				</span>
+			</nav>
+			<main>
+				<h1>No signal? <span>No problem.</span></h1>
+				<p>We can get your web apps running without the internet. Seriously, we can.</p>
+				<a class="cta" href="#contact">Want to learn how?</a>
+			</main>
+		</div>
+		
+		<div id="customer-benefits">
+			<section>
+				<img src="img/icon/tabler-users.svg" alt="users">
+				<h2>Keep your Customers Happy</h2>
+				Sync errors can cost your customers their data - and their trust.
+			</section>
+
+			<section>
+				<img src="img/icon/tabler-world.svg" alt="globe">
+				<h2>Break into New Markets</h2>
+				If you're looking to expand your reach in the primary sector, or remote logistics, working offline is a must.
+			</section>
+			
+			<section>
+				<img src="img/icon/tabler-rocket.svg" alt="rocket">
+				<h2>Outperform the Competition</h2>
+				<p>Let your users get to work while the competition is still showing them the loading screen - or an error page.</p>
+			</section>
+		</div>
+
+		<div id="services">
+			<h1>Services</h1>
+
+			<div class="service">
+				<img src="img/icon/tabler-checkup-list.svg" alt="clipboard with check mark">
+				<section>
+					<h2>Discovery</h2>
+
+					<p>There is no one size fits all solution to offline apps. In this phase we establish:</p>
+
+					<ul>
+						<li>The network conditions your customers operate in</li> 
+						<li>How your data models relate to the business domain</li>
+						<li>An overview of your current data technologies</li>
+					</ul>
+				</section>
+			</div>
+
+			<div class="service">
+				<img src="img/icon/tabler-database.svg" alt="database">
+				<section>
+					<h2>Design</h2>
+
+					<p>A plan of action to implement offline for your web app, including:</p>
+					<ul>
+						<li>Client side data access layer design</li>
+						<li>Custom offline sync strategy</li>
+						<li>Specification for new API endpoints</li>
+					</ul></p>
+				</section>
+			</div>
+
+			<div class="service">
+				<img src="img/icon/tabler-tool.svg" alt="spanner or wrench">
+				<section>
+					<h2>Execution</h2>
+					<p>Armed with a solid strategy tailored to your application and your customers, it's time to implement. This can proceed with or without my involvement.</p>
+				</section>
+			</div>
+		</div>
+		<div id="about">
+			<h1>About Me</h1>
+			<div>
+				<section>	
+					<p>I've been a freelance consultant since 2020, after a career developing software for industries such as airport services, agriculture. and supply chain management. </p>
+
+					<p>I live in a small village on the west coast with my wife and daughter, enjoying life between the mountains and the pacific.</p>
+				</section>
+				<img alt="Me sitting on my office chair with blue tie, in 2022" src="/img/me_2022.webp">
+			</div>
+		</div>
+		<div>
+			<h1>Previous Clients</h1>
+			<div id="testimonials">
+				<section>
+					<h2><a href="https://www.linkedin.com/in/marktooheylawyer/">Mark Toohey</a></h2>
+					<span>Executive Director @ Aglive Group Limited</span>
+
+					<img alt="Mark Toohey" src="/img/mark-toohey.webp">
+
+					<blockquote>
+						<p>&#10077 Lewis is very willing and responsive co-worker. He has great experience in AgTech projects and is always keen to tackle new tasks - even the challenging ones. We were very impressed with his willingness to mentor and train junior staff and he showed great initiative in doing this important task. Lewis would make a good addition to any team.&#10078</p>
+					</blockquote>
+				</section>
+
+				<section>
+					<h2><a href="https://www.linkedin.com/in/michaveen/">Micha Veen</a></h2>
+					<span>MD &amp; Founder @ Unique Excellence</span>
+
+					<img alt="Micha Veen" src="/img/micha-veen.webp">
+
+					<blockquote>
+						<p>&#10077 Lewis is a pragmatic IT professional that is very easy to work with. We conducted a business and technical solution diagnostic for the Papua New Guinea Health Product Supply Chain and assisted to understand the current technical gaps and potential practical tech-solutions that we could introduce in a tech-constricted country.</p>
+
+						<p>His collaborative approach and work ethics is immaculate and created a very easy work environment. He goes out of his way when you ask for some help and guidance.</p>
+
+						<p>Lewis, thanks for your support and insights, as you made it very easy for us to create a operational, supply chain and aligned technical roadmap for the PNG project, allowing us to get to the next stage of this exciting supply chain management project.&#10078</p>
+					</blockquote>
+				</section>
+
+				<section>
+					<h2><a href="https://www.linkedin.com/in/bramford-horton-a7381938/">Bramford Horton</a></h2>
+					<span>Director @ Derp Technologies</span>
+
+					<img alt="Bramford Horton" src="/img/bramford-horton.webp">
+
+					<blockquote>
+						<p>&#10077 Lewis works with Derp Technologies as a Frontend Web Development Consultant. Throughout our time working together, Lewis has produced quality software and solutions to meet the Web UI requirements of our clients and their end-users. Lewis communicates clearly and works diligently to deliver great results.&#10078</p>
+					</blockquote>
+				</section>
+			</div>
+		</div>
+		<div id="contact">
+			<section>
+				<h1>Time to get Offline Ready?</h1>
+				<p>Get in touch and find out how I can help.</p>
+			</section>
+			<address>
+				<span class="social">
+					
+					<img src="img/icon/tabler-mail.svg" alt="mail">
+					<a href="mailto:info@lewiscampbell.tech">info@lewiscampbell.tech</a>
+				</span>
+			</address>
+		</div>
+		<footer>
+			© 2023 Lewis Campbell Technologies Ltd.
+		</footer>
+	</body>
+</html>

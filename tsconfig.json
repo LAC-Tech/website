@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"checkJs": true,
+		"module": "ESNext",
+    "moduleResolution": "Node",
+		"isolatedModules": true,
+    "noEmit": true,
+  	"jsx": "preserve",
+  	"jsxImportSource": "solid-js",
+  	"strict": true
+	},
+	"include": ["src", "test"]
+}

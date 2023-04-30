@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-36WVV4ZMPV"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-36WVV4ZMPV');
+		</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="description" content="Static Analysis as a useful tool, not a moral imperative">
+		<meta charset="UTF-8">
+		<!-- Open Graph tags for sharing links -->
+		
+    	<meta 
+    		property="og:description" 
+    		content="Static Analysis as a useful tool, not a moral imperative"
+    	/>
+    
+    	<meta 
+    		property="og:title" 
+    		content="95% Programming"
+    	/>
+    
+		<title>95% Programming</title>
+		<link rel="stylesheet" type="text/css" href="/style.css">
+		<link rel="shortcut icon" type="image/png" href="/img/LC-icon-whitebackground02-01.png"/>
+		<link rel="manifest" href="/manifest.json">
+	</head>
+	<body>
+		<nav>
+			<a href="/" id="home">Home</a>
+			<span id="links">
+				<a href="/hire.html">Hire</a>
+				<a href="/about.html">About</a>
+				<a href="/blog.html">Blog</a>
+			</span>
+		</nav>
+    <main>
+      
+        <h1>95% Programming</h1>
+      
+      
+        <div id="date">May 09, 2022</div>
+      
+    	<p>If there&#39;s one thing that characterises the zeitgeist of 2022 programming discussions, it&#39;s the celebration of static analysis.</p>
+
+<p>Our tools are more and more focused on telling us what we can&#39;t do. This code isn&#39;t well-typed, it&#39;s unsafe, the style is <em>wrong</em>. The argument is that increasingly sophisticated static code analysis can eliminate your bugs one by one. You - the programmer - are soft and biological and irrational, but if you can plead your case to the spirits of the machine, maybe it will all be OK.</p>
+
+<p>And to be honest, I agree with this... 95% of the time.</p>
+
+<p>But sometimes the static analysis is wrong. And it&#39;s fine to to slip in a <code>void*</code>or a <code>//@ts-ignore</code> or an <code>unsafe</code>. Because some fraction of the time you&#39;ll run into an issue where you have to spend hours either convincing the machine of your edge case, or complicating your code to make it happy. Escape the safety hatch, write a comment explaining why, test it, and move on.</p>
+
+<p>Because of course, we still have to write a tests. Faithfulness to static analysis doesn&#39;t mean we can ignore what happens when the code actually runs. But I&#39;m not an absolutist, I&#39;m not saying you need full 100% coverage of your code. Just maybe, say... 95%.</p>
+
+		</main>
+	</body>
+</html>
