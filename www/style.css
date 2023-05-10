@@ -1,6 +1,6 @@
 :root {
 	--primary: hsl(200, 100%, 25.5%);
-  --darkest-grey: #222;
+  --darkest-grey: hsl(200, 50%, 5%);
   --grey: hsl(200, 0%, 90%);;
   --lightest-grey: #fff;
 }
@@ -10,7 +10,7 @@ html {
 }
 
 img {
-	border-radius: 5px;
+	border-radius: 2px;
 	max-width: 100%;
 }
 
@@ -40,7 +40,6 @@ body {
 	font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0em;
 	height: 100%;
-	font-size: 1.05rem;
 }
 
 body, a {
@@ -92,13 +91,13 @@ main a {
 	font-weight: bold;
 }
 
-
 #links {
 	text-align: left;
 }
 
 #links a {
-	padding: 0.2em;
+	padding: 0.5em;
+	padding-right: 0em;
 }
 
 #home {

@@ -2,7 +2,8 @@
 
 /// <reference path="../sw.d.ts"/>
 
-const cacheName = '5676083d-9bd4-4a20-a005-deb9b599fe8d'
+/** @type {string} */
+const cacheName = 'a26552f2-f62c-4c18-a24c-11015321de19'
 
 const worker = /** @type {ServiceWorkerGlobalScope} */ (/** @type {unknown} */ (self));
 
@@ -10,7 +11,21 @@ worker.addEventListener('install', event => {
 	event.waitUntil(caches.open(cacheName))
 })
 
+
+// clear old caches
+worker.addEventListener('activate', async event => {
+	const cacheNames = await caches.keys()
+	const cachesToDelete = cacheNames.filter(name => name !== cacheName)
+	const deletions = 
+		Promise.all(cachesToDelete.map(name => caches.delete(name)))
+	event.waitUntil(deletions)
+})
+
 worker.addEventListener('fetch', event => {
+	console.log(event)
+
+
+
 	// Check if this is a navigation request
 	const {request} = event
 

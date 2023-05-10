@@ -7,25 +7,8 @@
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
-
 		  gtag('config', 'G-YVVNR2QNZ7');
 		</script>
-		<script async>
-		  if ("serviceWorker" in navigator) {
-	      navigator.serviceWorker.register("/sw.js", {scope: "/",})
-	      	.then(registration => {
-	      		if (registration.installing) {
-			        console.log("Service worker installing");
-			      } else if (registration.waiting) {
-			        console.log("Service worker installed");
-			      } else if (registration.active) {
-			        console.log("Service worker active");
-			      }
-	      	})
-	      	.catch(error => console.error(`Registration failed with ${error}`))
-	      }
-    </script>
-		
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="description" content="Want your app to work for customers in remote regions? Find out how my services can help your app perform offline and off the grid.">
@@ -34,13 +17,10 @@
 
 		<title>Lewis Campbell Technologies</title>
 		<link rel="stylesheet" type="text/css" href="/new.css">
-		<link rel="manifest" href="manifest.json">
 		<link rel="apple-touch-icon" href="img/icon/img192.png">
-
 		<link rel="shortcut icon" type="image/png" href="/img/icon/icon32.png"/>
 		<meta name="theme-color" content="#80D4FF"/>
 	</head>
-
 	<body>
 		<div id="hero">
 			<nav>
