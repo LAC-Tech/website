@@ -1,6 +1,6 @@
 :root {
 	--primary: hsl(200, 100%, 25.5%);
-  --darkest-grey: hsl(200, 50%, 5%);
+  --darkest-grey: hsl(200, 50%, 12.5%);
   --grey: hsl(200, 0%, 90%);;
   --lightest-grey: #fff;
 }

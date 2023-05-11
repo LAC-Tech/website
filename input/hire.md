@@ -51,10 +51,9 @@ Implementations of conflict free data-types (CRDTs), illustrating how their inte
 
 ### Supply Chain Consulting
 
-Company: Unique Excellence
-Where: Australia (Remote)
-When: 2022
-Tech: Google docs, Email, Github (this was a pure consulting role)
+| Company           | Where             | When      | Tech      |
+|:------------------|:------------------|:----------|:----------|
+| Unique Excellence | Australia (Remote)| 2022      | Google docs, Email, Github (pure consulting role)
 
 ### Remote water-monitoring startup
 
