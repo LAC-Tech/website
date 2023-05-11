@@ -12,37 +12,38 @@
 		</script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
 		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="description" content="<%= og["description"] %>">
+		<meta name="description" content="Software consultant, specialising in livestock traceability and agricultural logistics.">
 		<meta charset="UTF-8">
 		<!-- Open Graph tags for sharing links -->
-		<% og.each do |k, v| %>
-    	<meta 
-    		property="og:<%=k%>" 
-    		content="<%=v%>"
-    	/>
-    <% end %>
-		<title><%= og["title"] %></title>
+		<meta 
+			property="og:image" 
+			content="https://lewiscampbell.tech/img/LC-icon-whitebackground02-01.png"
+		/>
+		<meta 
+			property="og:title" 
+			content="Lewis Campbell Technologies"
+		/>
+		<meta 
+			property="og:description" 
+			content="Software consultant, specialising in livestock traceability and agricultural logistics."
+		/>
+		<title>$title$</title>
 		<link rel="stylesheet" type="text/css" href="/style.css">
-		<link rel="shortcut icon" type="image/png" href="/img/LC-icon-whitebackground02-01.png"/>
+		<link rel="shortcut icon" type="image/png" href="/img/icon/icon32.png"/>
 		<link rel="manifest" href="/manifest.json">
 	</head>
 	<body>
 		<nav>
-			<a href="/" id="home">Home</a>
+			<a href="/" id="home"><img src="/img/icon/icon46.webp"/></a>
 			<span id="links">
 				<a href="/hire.html">Hire</a>
-				<a href="/about.html">About</a>
-				<a href="/blog.html">Blog</a>
+				<a href="/contact.html">Contact</a>
+				<a href="/prototypes.html">Experiments</a>
+				<a href="/talks.html">Talks</a>
 			</span>
 		</nav>
     <main>
-      <% if not title.nil? then %>
-        <h1><%= title %></h1>
-      <% end %>
-      <% if not date.nil? then %>
-        <div id="date"><%= date %></div>
-      <% end %>
-    	<%= html_snippet %>
+			$body$     
 		</main>
 	</body>
 </html>

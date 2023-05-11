@@ -1,6 +1,6 @@
 convert: www/hire.html
 
 www/hire.html: input/hire.md
-	pandoc -f markdown -t html -s -o $@ $<
+	pandoc -f markdown -t html --template=template.html -o $@ $<
 
 .PHONY: convert
