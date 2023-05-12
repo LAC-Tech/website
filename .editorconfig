@@ -3,5 +3,7 @@
 indent_style = tab
 tab_width = 4
 
-[*.js, *.jsx, *.d.ts]
+[*.js]
+[*.jsx]
+[*.d.ts]
 tab_width = 2
