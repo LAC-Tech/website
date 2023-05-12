@@ -32,6 +32,11 @@ BSc Computer Science  from Massey University, New Zealand
 
 ## Papers I've perused
 
+- Only understood a part of it
+- Got the general gist of it
+- Grokked it pretty well
+
+
 | Name                                      |    | Implemented |
 |:------------------------------------------|:-----|:-----------|:------------|
 | An Optimized Conflict-free Replicated Set | 5/5  | 4/5        | 5/5         |
@@ -51,9 +56,16 @@ Implementations of conflict free data-types (CRDTs), illustrating how their inte
 
 ### Supply Chain Consulting
 
-| Company           | Where             | When      | Tech      |
-|:------------------|:------------------|:----------|:----------|
-| Unique Excellence | Australia (Remote)| 2022      | Google docs, Email, Github (pure consulting role)
+<dl>
+    <dt>Company</dt>
+    <dd>Unique Excellence</dd>
+    <dt>Where</dt>
+    <dd>Australia (Remote)</dd>
+    <dt>When</dt>
+    <dd>2022</dd>
+    <dt>Tech</dt>
+    <dd>Google docs, Email, Github, Word (pure consulting role)</dd>
+</dl>
 
 ### Remote water-monitoring startup
 
