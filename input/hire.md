@@ -2,7 +2,7 @@
 title: Hire Lewis Campbell
 ---
 
-My speciality is capturing data across the supply chain. Often in 
+My speciality is capturing data across the supply chain. Often in remote or
 
 The technical challenges of capturing data in remote environments, 
 
@@ -10,7 +10,7 @@ The technical challenges of capturing data in remote environments,
 - data captured in the field
 - the fringe of the supply chain, areas with poor connectivity
 
-"I am a software developer with expertise in supply chain management and a focus on creating software solutions that facilitate the movement and tracking of goods and services. With additional experience in developing software for field use, I have worked with factory workers, maintenance workers, meat producers, and aid post workers to create custom solutions that streamline operations and improve efficiency. My background in supply chain logistics and field technology makes me uniquely equipped to solve the challenges associated with these areas.
+I am a software developer with expertise in supply chain management and a focus on creating software solutions that facilitate the movement and tracking of goods and services. With additional experience in developing software for field use, I have worked with factory workers, maintenance workers, meat producers, and aid post workers to create custom solutions that streamline operations and improve efficiency. My background in supply chain logistics and field technology makes me uniquely equipped to solve the challenges associated with these areas.
 
 # How I can help
 
