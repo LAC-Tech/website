@@ -2,7 +2,7 @@
 title: Hire Lewis Campbell
 ---
 
-My speciality is capturing data across the supply chain. Often in  
+My speciality is capturing data across the supply chain. Often in 
 
 The technical challenges of capturing data in remote environments, 
 
@@ -32,7 +32,11 @@ BSc Computer Science  from Massey University, New Zealand
 
 ## Papers I've perused
 
-Read %, Understood %, Implemented %
+| Name                                      |    | Implemented |
+|:------------------------------------------|:-----|:-----------|:------------|
+| An Optimized Conflict-free Replicated Set | 5/5  | 4/5        | 5/5         |
+| Viewstamped Replication Revisited         | 5/5  | 4/5        | 0/5         |
+| 
 
 # Places I've worked
 
@@ -60,10 +64,10 @@ When: 2022
 
 ### Livestock supply chain traceability startup
 
-Company: Aglive
-Where: Australia (Remote)
-When: 2020-2021
-Tech: React.js, Node.js, MongoDB
+| Company   | Where                 | When          | Tech  |
+|:----------|:----------------------|:------        |:------|
+| Aglive    | Australia (Remote)    |   2020-2021   |   React, Node, MongoDB  |
+
 
 Fond memories of this one.
 
@@ -115,8 +119,11 @@ What / When / Where
 ### Livestock Product Manufacturer
 
 Company: Allflex Livestock Intelligence
+
 Where: New Zealand
+
 When: 2016-2020
+
 Tech: C#, ASP.NET, SQL Server, Dynamics GP (don't ask)
 
 Biggest legacy system I'd worked on to date.
