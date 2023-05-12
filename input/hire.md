@@ -69,12 +69,33 @@ Implementations of conflict free data-types (CRDTs), illustrating how their inte
 
 ### Remote water-monitoring startup
 
+<dl>
+    <dt>Company</dt>
+    <dd>Farmbot Monitoring Solutions</dd>
+    <dt>Where</dt>
+    <dd>Australia (Remote)</dd>
+    <dt>When</dt>
+    <dd>2022</dd>
+    <dt>Tech</dt>
+    <dd>React, Typescript, IndexedDB</dd>
+</dl>
+
 Company: Farmbot Monitoring Solutions
 Where: Australia (Remote)
 When: 2022
 
 ### Livestock supply chain traceability startup
 
+<dl>
+    <dt>Company</dt>
+    <dd>Aglive</dd>
+    <dt>Where</dt>
+    <dd>Australia (Remote)</dd>
+    <dt>When</dt>
+    <dd>2020-2021</dd>
+    <dt>Tech</dt>
+    <dd>React, Typescript, Node, MongoDB</dd>
+</dl>
 | Company   | Where                 | When          | Tech  |
 |:----------|:----------------------|:------        |:------|
 | Aglive    | Australia (Remote)    |   2020-2021   |   React, Node, MongoDB  |
@@ -84,9 +105,16 @@ Fond memories of this one.
 
 ### Web Development Agency
 
-Company: Derp Technlogies (yes, that was really their name)
-Where: New Zealand (Remote)
-When: 2020
+<dl>
+    <dt>Company</dt>
+    <dd>Derp Technology (yes, that was really their name...)</dd>
+    <dt>Where</dt>
+    <dd>New Zealand (Remote)</dd>
+    <dt>When</dt>
+    <dd>2020</dd>
+    <dt>Tech</dt>
+    <dd>React, Typescript, AWS, Google Maps</dd>
+</dl>
 
 First time doing exclusively webdev, and first time I'd worked off any design more sophisticated than a wireframe mock-up.
 
@@ -99,10 +127,16 @@ Highlights include :
 
 ### Local Government Election Processing
 
-Company: Election Services (New Zealand)
-Where: Auckland, New Zealand
-When: 2014-2015
-Tech: C++, Qt, VB.NET
+<dl>
+    <dt>Company</dt>
+    <dd>Election Services</dd>
+    <dt>Where</dt>
+    <dd>Auckland, New Zealand</dd>
+    <dt>When</dt>
+    <dd>2014-2015</dd>
+    <dt>Tech</dt>
+    <dd>C++, Qt, Postgres</dd>
+</dl>
 
 Aka my accidental year of C++ experience (bit of a confusion between 'C#' and 'C++' during the recruitment process, but everyone just went with it).
 
@@ -110,10 +144,16 @@ Big lesson I took away here was how unproductive C++ was for CRUD software. It w
 
 ### Airport Maintenance Crew Software
 
-Company: Novo-technical services
-Where: New Zealand
-When: 2014
-Tech: F#, WinForms, Excel
+<dl>
+    <dt>Company</dt>
+    <dd>NovoTech Ltd</dd>
+    <dt>Where</dt>
+    <dd>Auckland Airport, New Zealand</dd>
+    <dt>When</dt>
+    <dd>2014</dd>
+    <dt>Tech</dt>
+    <dd>F#, Excel, JD Edwards</dd>
+</dl>
 
 My first time writing software professionally, and it had a huge impact on me.
 
@@ -125,31 +165,38 @@ Note: I was full of functional fervour at the time, so I wrote it in F#. No one 
 
 ## Employed
 
-What / When / Where
-
 ### Livestock Product Manufacturer
 
-Company: Allflex Livestock Intelligence
-
-Where: New Zealand
-
-When: 2016-2020
-
-Tech: C#, ASP.NET, SQL Server, Dynamics GP (don't ask)
+<dl>
+    <dt>Company</dt>
+    <dd>Allflex Livestock Intelligence</dd>
+    <dt>Where</dt>
+    <dd>Palmerston North, New Zealand</dd>
+    <dt>When</dt>
+    <dd>2016-2020</dd>
+    <dt>Tech</dt>
+    <dd>C#, ASP.NET, SQL Server, Dyanmics GP (don't ask)</dd>
+</dl>
 
 Biggest legacy system I'd worked on to date.
 
 I learned the value of keeping a system running - our software went down, and two factories stopped functioning.
 
+Exposed to a vertical slice of the whole supply chain
+
 ### Practice Management Software
 
-Company: Gensolve
-Where: New Zealand
-When: 2014-2015
-Tech: C#, Oracle Database
+<dl>
+    <dt>Company</dt>
+    <dd>Gensolve</dd>
+    <dt>Where</dt>
+    <dd>Wellington, New Zealand</dd>
+    <dt>When</dt>
+    <dd>2014-2015</dd>
+    <dt>Tech</dt>
+    <dd>C#, Oracle Database</dd>
+</dl>
 
 This was the first time I saw real life legacy software, and wow was it an eye opener.
-
-
 
 They ended up closing the local office, and after a stint of remote work I was made redundant shortly after.
