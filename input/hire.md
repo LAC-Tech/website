@@ -4,6 +4,10 @@ title: Hire Lewis Campbell
 
 # Introduction
 
+- Supply chain
+- Field technology
+- Network resiliency
+
 My speciality is capturing data across the supply chain. Often in remote or
 
 The technical challenges of capturing data in remote environments, 
@@ -24,24 +28,27 @@ I'm Experienced CRUD app dev, with a smattering of tech lead/architect/consultan
 
 My biggest goal right now is to work with smart, motivated people in an area I'm passionate about - distributed databases.
 
-# What people have said about me
-
 # Education
 
-## Certifications
-
-### BSc Computer Science
-Massey University, New Zealand
-
-### German Language B1
-Goethe-Zertifikat B1, Goethe Institut in Wellington
+<dl>
+  <dt>Quallifcation</dt>
+  <dd>BSc Computer Science</dd>
+  <dt>Institution</dt>
+  <dd>Massey University</dd>
+</dl>
+<dl>
+  <dt>Quallifcation</dt>
+  <dd>B1 Certificate in German Language</dd>
+  <dt>Institution</dt>
+  <dd>Goethe Institut</dd>
+</dl>
 
 ## Self study
 
 <table>
-	<thead>
+  <thead>
 		<tr>
-			<th>Paper</th>
+		  <th>Paper</th>
 			<th>Understanding</th>
 		</tr>
 	</thead>
@@ -121,18 +128,9 @@ Goethe-Zertifikat B1, Goethe Institut in Wellington
   </tbody>
 </table>
 
-# Places I've worked
+# Past Clients
 
-## Portfolio
-
-Sync About It
-https://lewiscampbell.tech/sync.html
-
-Implementations of conflict free data-types (CRDTs), illustrating how their internal state changes as they merge. Utilises property based testing to ensure idempotence, commutativity and associativity.
-
-## Self-Employment
-
-### Supply Chain Consulting
+## Supply Chain Consulting
 
 <dl>
     <dt>Company</dt>
@@ -145,7 +143,7 @@ Implementations of conflict free data-types (CRDTs), illustrating how their inte
     <dd>Google docs, Email, Github, Word (pure consulting role)</dd>
 </dl>
 
-### Remote Water-monitoring Startup
+## Remote Water Monitoring 
 
 <dl>
     <dt>Company</dt>
@@ -158,7 +156,7 @@ Implementations of conflict free data-types (CRDTs), illustrating how their inte
     <dd>React, Typescript, IndexedDB</dd>
 </dl>
 
-### Livestock supply chain traceability startup
+## Supply Chain Traceability for Livestock 
 
 <dl>
     <dt>Company</dt>
@@ -173,7 +171,7 @@ Implementations of conflict free data-types (CRDTs), illustrating how their inte
 
 Fond memories of this one.
 
-### Web Development Agency
+## Web Development Agency
 
 <dl>
     <dt>Company</dt>
@@ -190,8 +188,7 @@ Fond memories of this one.
 
 - introducing typescript to the codebase - first via jsdoc comments, and then finally a pretty trivial transformation at the end.
 
-
-### Local Government Election Processing
+## Election Processing
 
 <dl>
     <dt>Company</dt>
@@ -206,7 +203,7 @@ Fond memories of this one.
 
 - Learned C++ on the job
 
-### Airport Maintenance Crew Software
+## Airport Maintenance Software
 
 <dl>
     <dt>Company</dt>
@@ -223,9 +220,9 @@ Came in with no team, no supervisor, and no guidelines. And I knocked out of the
 
 Note: I was full of functional fervour at the time, so I wrote it in F#. No one there even knew or cared what C# or F# was, they just wanted a desktop app.
 
-## Employed
+# Employment History
 
-### Livestock Product Manufacturer
+## Livestock Product Manufacturer
 
 <dl>
     <dt>Company</dt>
@@ -238,15 +235,13 @@ Note: I was full of functional fervour at the time, so I wrote it in F#. No one 
     <dd>C#, ASP.NET, SQL Server, Dyanmics GP (don't ask)</dd>
 </dl>
 
-
-
 Biggest legacy system I'd worked on to date.
 
 I learned the value of keeping a system running - our software went down, and two factories stopped functioning.
 
 Exposed to a vertical slice of the whole supply chain
 
-### Practice Management Software
+## Practice Management Software
 
 <dl>
     <dt>Company</dt>

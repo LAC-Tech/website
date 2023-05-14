@@ -1,10 +1,16 @@
-convert: www/hire.html
+INPUT_DIR = input
+OUTPUT_DIR = www
 
-www/hire.html: input/hire.md
+MARKDOWN_FILES = $(wildcard $(INPUT_DIR)/*.md)
+HTML_FILES = $(patsubst $(INPUT_DIR)/%.md, $(OUTPUT_DIR)/%.html, $(MARKDOWN_FILES))
+
+all: $(HTML_FILES)
+
+$(OUTPUT_DIR)/%.html: $(INPUT_DIR)/%.md
 	pandoc -f markdown+smart -t html --template=input/template.html -o $@ $<
 
-.PHONY: convert
-.PHONY: clean
+.PHONY: all clean
 
 clean:
-	rm -f www/hire.html
+	rm -f $(HTML_FILES)
+
