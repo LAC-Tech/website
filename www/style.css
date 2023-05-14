@@ -1,11 +1,22 @@
 :root {
-	--primary: hsl(200, 100%, 25.5%);
-	--darkest-grey: hsl(200, 50%, 12.5%);
+	--primary: hsl(200, 100%, 37.5%);
+	--darkest-grey: hsl(200, 10%, 15%);
 	--grey: hsl(200, 0%, 90%);;
 	--lightest-grey: #fff;
+	--bg: hsl(20, 50%, 99%);
+
 }
 
 html {
+	height: 100%;
+}
+
+body {
+	font-family: Garamond, serif;
+	font-size: 1.024em; 
+  	line-height: 1.5;
+	background: radial-gradient(circle, whitesmoke, var(--bg)); 
+	margin: 0em;
 	height: 100%;
 }
 
@@ -25,22 +36,21 @@ blockquote {
 
 h1, h2, h3, ul {
 	width: 100%;
-	margin: 2.5%;
 }
 
-h1 { font-size: 180%; }
-h2 { font-size: 135%; }
-h3 { font-size: 120%; }
+h1, h2, h3 {
+	font-variant: small-caps;
+	margin: 0.5em 0 0.5em 0;
+}
+
+h1 { font-size: 130%; }
+h2 { font-size: 120%; }
+h3 { font-size: 110%; }
 
 header, div, p {
 	width: 100%;
 }
 
-body {
-	font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	margin: 0em;
-	height: 100%;
-}
 
 body, a {
 	color: var(--darkest-grey);
@@ -51,7 +61,8 @@ nav {
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
 	top: 0;
-	background: white;
+	background: var(--bg);
+	z-index: 9999; /* meters stick through otherwise */
 
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
@@ -67,7 +78,7 @@ nav {
 }
 
 nav a {
-	text-decoration: none;
+	font-variant: small-caps;
 }
 
 nav a:hover {
@@ -83,17 +94,20 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
-	line-height: 1.375;
 }
 
 main a {
 	font-weight: bold;
 }
 
+p {
+	margin: 0 0.5em 0 0.5em;
+}
+
 dl {
 	text-align: left;
 	width: 100%;
+	margin: 0 0 8px 0;
 }
 dt {
 	float: left;
@@ -105,6 +119,22 @@ dt {
 dd {
 	text-align: left;
 	margin: 0 0 0 6.4em;
+}
+
+table {
+	border: 1px solid var(--darkest-grey);
+}
+
+thead {
+	text-align: left;
+}
+
+td, th {
+	padding: 0.25em;
+}
+
+meter::-webkit-meter-optimum-value {
+  background-color: var(--primary);
 }
 
 #links {

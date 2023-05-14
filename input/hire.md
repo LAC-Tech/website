@@ -2,6 +2,8 @@
 title: Hire Lewis Campbell
 ---
 
+# Introduction
+
 My speciality is capturing data across the supply chain. Often in remote or
 
 The technical challenges of capturing data in remote environments, 
@@ -28,8 +30,11 @@ My biggest goal right now is to work with smart, motivated people in an area I'm
 
 ## Certifications
 
-BSc Computer Science  from Massey University, New Zealand
-B1 Certificate Goethte Institut
+### BSc Computer Science
+Massey University, New Zealand
+
+### German Language B1
+Goethe-Zertifikat B1, Goethe Institut in Wellington
 
 ## Self study
 
@@ -43,37 +48,78 @@ B1 Certificate Goethte Institut
   <tbody>
     <tr>
       <td>
-        <cite>An Optimized Conflict-free Replicated Set<cite>
+        <i>An Optimized Conflict-Free Replicated Set<i>
       </td>
       <td>
-        <meter min="0" max="3" value="3"/>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <cite>Viewstamped Replication Revisited</cite>
-      </td>
-      <td>
-        <meter min="0" max="3" value="2"/>
+        <meter min="0" max="3" value="3" />
       </td>
     </tr>
     <tr>
       <td>
-        <cite>Conflict-Free replicated Relations for Multi-Synchronous Database Management at Edge</cite>
+        <i>Viewstamped Replication Revisited</i>
       </td>
       <td>
-        <meter min="0" max="3" value="1"/>
+        <meter min="0" max="3" value="2" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <i>Conflict-Free replicated Relations for Multi-Synchronous Database Management at Edge</i>
+      </td>
+      <td>
+        <meter min="0" max="3" value="1" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <i>Why Logical Clocks Are Easy</i>
+      </td>
+      <td>
+        <meter min="0" max="3" value="2" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <i>Logical Physical Clocks and Consistent Snapshots in Globally Distributed Systems</i>
+      </td>
+      <td>
+        <meter min="0" max="3" value="1" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <i>Delta State Replicated Data Types</i>
+      </td>
+      <td>
+        <meter min="0" max="3" value="1" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <i>Detection of Mutual Inconsistency in Distributed Systems</i>
+      </td>
+      <td>
+        <meter min="0" max="3" value="2" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <i>Time, Clocks, and the Ordering of Events in a Distributed System</i>
+      </td>
+      <td>
+        <meter min="0" max="3" value="2" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <i>Timestamps in Message-Passing Systems That Preserve the Partial Ordering</i>
+      </td>
+      <td>
+        <meter min="0" max="3" value="2" />
       </td>
     </tr>
   </tbody>
 </table>
-
-| Paper                                    	| Understanding	| 
-|:------------------------------------------|:--------------|
-| <cite>An Optimized Conflict-free Replicated Set<cite>|<meter min="1" max="3" value="3" />|
-| Viewstamped Replication Revisited         |<meter min="1" max="3" value="2" />| 
-| Why Logical clocks are Easy 				|<meter min="1" max="3" value="2" />| 
-| A comprehensive study of Convergent and Commutative Replicated Data types | <meter min="1" max="3" value="2" /> |
 
 # Places I've worked
 
@@ -99,7 +145,7 @@ Implementations of conflict free data-types (CRDTs), illustrating how their inte
     <dd>Google docs, Email, Github, Word (pure consulting role)</dd>
 </dl>
 
-### Remote water-monitoring startup
+### Remote Water-monitoring Startup
 
 <dl>
     <dt>Company</dt>
@@ -215,4 +261,5 @@ Exposed to a vertical slice of the whole supply chain
 
 This was the first time I saw real life legacy software, and wow was it an eye opener.
 
-They ended up closing the local office, and after a stint of remote work I was made redundant shortly after.
+They ended up closing the local office, and after a stint of remote work I was made red
+shortly after.
