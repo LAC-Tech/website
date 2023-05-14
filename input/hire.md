@@ -24,24 +24,56 @@ My biggest goal right now is to work with smart, motivated people in an area I'm
 
 # What people have said about me
 
-# What I've studied
+# Education
 
-## Piece of Paper
+## Certifications
 
 BSc Computer Science  from Massey University, New Zealand
+B1 Certificate Goethte Institut
 
-## Papers I've perused
+## Self study
 
-- Only understood a part of it
-- Got the general gist of it
-- Grokked it pretty well
+<table>
+	<thead>
+		<tr>
+			<th>Paper</th>
+			<th>Understanding</th>
+		</tr>
+	</thead>
+  <tbody>
+    <tr>
+      <td>
+        <cite>An Optimized Conflict-free Replicated Set<cite>
+      </td>
+      <td>
+        <meter min="0" max="3" value="3"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <cite>Viewstamped Replication Revisited</cite>
+      </td>
+      <td>
+        <meter min="0" max="3" value="2"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <cite>Conflict-Free replicated Relations for Multi-Synchronous Database Management at Edge</cite>
+      </td>
+      <td>
+        <meter min="0" max="3" value="1"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-
-| Name                                      |    | Implemented |
-|:------------------------------------------|:-----|:-----------|:------------|
-| An Optimized Conflict-free Replicated Set | 5/5  | 4/5        | 5/5         |
-| Viewstamped Replication Revisited         | 5/5  | 4/5        | 0/5         |
-| 
+| Paper                                    	| Understanding	| 
+|:------------------------------------------|:--------------|
+| <cite>An Optimized Conflict-free Replicated Set<cite>|<meter min="1" max="3" value="3" />|
+| Viewstamped Replication Revisited         |<meter min="1" max="3" value="2" />| 
+| Why Logical clocks are Easy 				|<meter min="1" max="3" value="2" />| 
+| A comprehensive study of Convergent and Commutative Replicated Data types | <meter min="1" max="3" value="2" /> |
 
 # Places I've worked
 
@@ -80,10 +112,6 @@ Implementations of conflict free data-types (CRDTs), illustrating how their inte
     <dd>React, Typescript, IndexedDB</dd>
 </dl>
 
-Company: Farmbot Monitoring Solutions
-Where: Australia (Remote)
-When: 2022
-
 ### Livestock supply chain traceability startup
 
 <dl>
@@ -96,10 +124,6 @@ When: 2022
     <dt>Tech</dt>
     <dd>React, Typescript, Node, MongoDB</dd>
 </dl>
-| Company   | Where                 | When          | Tech  |
-|:----------|:----------------------|:------        |:------|
-| Aglive    | Australia (Remote)    |   2020-2021   |   React, Node, MongoDB  |
-
 
 Fond memories of this one.
 
@@ -115,10 +139,6 @@ Fond memories of this one.
     <dt>Tech</dt>
     <dd>React, Typescript, AWS, Google Maps</dd>
 </dl>
-
-First time doing exclusively webdev, and first time I'd worked off any design more sophisticated than a wireframe mock-up.
-
-Highlights include :
 
 - replacing a paid for theme, and in the process replacing 7k lines of SASS with 1k lines of CSS and having it look exactly the same.
 
@@ -138,9 +158,7 @@ Highlights include :
     <dd>C++, Qt, Postgres</dd>
 </dl>
 
-Aka my accidental year of C++ experience (bit of a confusion between 'C#' and 'C++' during the recruitment process, but everyone just went with it).
-
-Big lesson I took away here was how unproductive C++ was for CRUD software. It was a Qt desktop app, and in hindsight I should have pushed for something like Python-Qt.
+- Learned C++ on the job
 
 ### Airport Maintenance Crew Software
 
@@ -149,10 +167,6 @@ Big lesson I took away here was how unproductive C++ was for CRUD software. It w
     <dd>NovoTech Ltd</dd>
     <dt>Where</dt>
     <dd>Auckland Airport, New Zealand</dd>
-    <dt>When</dt>
-    <dd>2014</dd>
-    <dt>Tech</dt>
-    <dd>F#, Excel, JD Edwards</dd>
 </dl>
 
 My first time writing software professionally, and it had a huge impact on me.
@@ -178,6 +192,8 @@ Note: I was full of functional fervour at the time, so I wrote it in F#. No one 
     <dd>C#, ASP.NET, SQL Server, Dyanmics GP (don't ask)</dd>
 </dl>
 
+
+
 Biggest legacy system I'd worked on to date.
 
 I learned the value of keeping a system running - our software went down, and two factories stopped functioning.
@@ -192,7 +208,7 @@ Exposed to a vertical slice of the whole supply chain
     <dt>Where</dt>
     <dd>Wellington, New Zealand</dd>
     <dt>When</dt>
-    <dd>2014-2015</dd>
+    <dd>2014-2015 (Office closed)</dd>
     <dt>Tech</dt>
     <dd>C#, Oracle Database</dd>
 </dl>
