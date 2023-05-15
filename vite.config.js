@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
 		solidPlugin(),
 		VitePWA({
+			injectRegister: 'inline',
 			registerType: 'autoUpdate',
 			workbox: {
 				globPatterns: ['**/*.{js,css,html,ico,png,svg,webp}']
@@ -22,7 +23,6 @@ export default defineConfig({
 						"src": "img/icon/icon192.png",
 						"type": "image/png",
 						"sizes": "192x192",
-						"purpose": "any maskable"
 					},
 					{
 						"src": "img/icon/icon144.png",
