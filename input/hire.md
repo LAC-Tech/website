@@ -2,31 +2,151 @@
 title: Hire Lewis Campbell
 ---
 
-# Introduction
+# Objective
 
-- Supply chain
-- Field technology
-- Network resiliency
+To work with smart, driven people on distributed systems that solve real world problems, reliably and quickly.
 
-My speciality is capturing data across the supply chain. Often in remote or
+My career has centered on capturing and managing data across the supply chain. Of particular interest is software deployed in the field, where reliable connectivity cannot be assumed. These industry challenges have motivated me to specialise in this area. 
 
-The technical challenges of capturing data in remote environments, 
+# Professional Experience
 
-- a focus on facilitating the movement and tracking of goods
-- data captured in the field
-- the fringe of the supply chain, areas with poor connectivity
+## Summary
 
-I am a software developer with expertise in supply chain management and a focus on creating software solutions that facilitate the movement and tracking of goods and services. With additional experience in developing software for field use, I have worked with factory workers, maintenance workers, meat producers, and aid post workers to create custom solutions that streamline operations and improve efficiency. My background in supply chain logistics and field technology makes me uniquely equipped to solve the challenges associated with these areas.
+- Coded in a wide variety of paradigms, from functional programming to systems programming
+- Deployed backend, frontend, and desktop software
+- Solved challanges using document databases, relational databases and key-value stores
+- Senior work as a Technical Lead and Solutions Architect.
 
-# How I can help
+## Past Clients
 
-Real software for real people.
+### Supply Chain Consulting
 
-I'm Experienced CRUD app dev, with a smattering of tech lead/architect/consultant thrown in.
+<dl>
+    <dt>Company</dt>
+    <dd>Unique Excellence</dd>
+    <dt>Where</dt>
+    <dd>Australia (Remote)</dd>
+    <dt>When</dt>
+    <dd>2022</dd>
+    <dt>Tech</dt>
+    <dd>Google docs, Email, Github, Word (pure consulting role)</dd>
+</dl>
 
-# What I'm looking for
+### Remote Water Monitoring 
 
-My biggest goal right now is to work with smart, motivated people in an area I'm passionate about - distributed databases.
+<dl>
+    <dt>Company</dt>
+    <dd>Farmbot Monitoring Solutions</dd>
+    <dt>Where</dt>
+    <dd>Australia (Remote)</dd>
+    <dt>When</dt>
+    <dd>2022</dd>
+    <dt>Tech</dt>
+    <dd>React, Typescript, IndexedDB</dd>
+</dl>
+
+### Supply Chain Traceability for Livestock 
+
+<dl>
+    <dt>Company</dt>
+    <dd>Aglive</dd>
+    <dt>Where</dt>
+    <dd>Australia (Remote)</dd>
+    <dt>When</dt>
+    <dd>2020-2021</dd>
+    <dt>Tech</dt>
+    <dd>React, Typescript, Node, MongoDB</dd>
+</dl>
+
+Fond memories of this one.
+
+### Web Development Agency
+
+<dl>
+    <dt>Company</dt>
+    <dd>Derp Technology (yes, that was really their name...)</dd>
+    <dt>Where</dt>
+    <dd>New Zealand (Remote)</dd>
+    <dt>When</dt>
+    <dd>2020</dd>
+    <dt>Tech</dt>
+    <dd>React, Typescript, AWS, Google Maps</dd>
+</dl>
+
+- replacing a paid for theme, and in the process replacing 7k lines of SASS with 1k lines of CSS and having it look exactly the same.
+
+- introducing typescript to the codebase - first via jsdoc comments, and then finally a pretty trivial transformation at the end.
+
+### Election Processing
+
+<dl>
+    <dt>Company</dt>
+    <dd>Election Services</dd>
+    <dt>Where</dt>
+    <dd>Auckland, New Zealand</dd>
+    <dt>When</dt>
+    <dd>2014-2015</dd>
+    <dt>Tech</dt>
+    <dd>C++, Qt, Postgres</dd>
+</dl>
+
+- Learned C++ on the job
+
+### Airport Maintenance Software
+
+<dl>
+    <dt>Company</dt>
+    <dd>NovoTech Ltd</dd>
+    <dt>Where</dt>
+    <dd>Auckland Airport, New Zealand</dd>
+</dl>
+
+My first time writing software professionally, and it had a huge impact on me.
+
+Finally had my degree, but also had a truck-load of doubts if I could be effective in the real world.
+
+Came in with no team, no supervisor, and no guidelines. And I knocked out of the park. It was a real confidence booster.
+
+Note: I was full of functional fervour at the time, so I wrote it in F#. No one there even knew or cared what C# or F# was, they just wanted a desktop app.
+
+## Employment History
+
+### Livestock Product Manufacturer
+
+<dl>
+    <dt>Company</dt>
+    <dd>Allflex Livestock Intelligence</dd>
+    <dt>Where</dt>
+    <dd>Palmerston North, New Zealand</dd>
+    <dt>When</dt>
+    <dd>2016-2020</dd>
+    <dt>Tech</dt>
+    <dd>C#, ASP.NET, SQL Server, Dyanmics GP (don't ask)</dd>
+</dl>
+
+Biggest legacy system I'd worked on to date.
+
+I learned the value of keeping a system running - our software went down, and two factories stopped functioning.
+
+Exposed to a vertical slice of the whole supply chain
+
+### Practice Management Software
+
+<dl>
+    <dt>Company</dt>
+    <dd>Gensolve</dd>
+    <dt>Where</dt>
+    <dd>Wellington, New Zealand</dd>
+    <dt>When</dt>
+    <dd>2014-2015 (Office closed)</dd>
+    <dt>Tech</dt>
+    <dd>C#, Oracle Database</dd>
+</dl>
+
+This was the first time I saw real life legacy software, and wow was it an eye opener.
+
+They ended up closing the local office, and after a stint of remote work I was made red
+shortly after.
 
 # Education
 
@@ -128,133 +248,3 @@ My biggest goal right now is to work with smart, motivated people in an area I'm
   </tbody>
 </table>
 
-# Past Clients
-
-## Supply Chain Consulting
-
-<dl>
-    <dt>Company</dt>
-    <dd>Unique Excellence</dd>
-    <dt>Where</dt>
-    <dd>Australia (Remote)</dd>
-    <dt>When</dt>
-    <dd>2022</dd>
-    <dt>Tech</dt>
-    <dd>Google docs, Email, Github, Word (pure consulting role)</dd>
-</dl>
-
-## Remote Water Monitoring 
-
-<dl>
-    <dt>Company</dt>
-    <dd>Farmbot Monitoring Solutions</dd>
-    <dt>Where</dt>
-    <dd>Australia (Remote)</dd>
-    <dt>When</dt>
-    <dd>2022</dd>
-    <dt>Tech</dt>
-    <dd>React, Typescript, IndexedDB</dd>
-</dl>
-
-## Supply Chain Traceability for Livestock 
-
-<dl>
-    <dt>Company</dt>
-    <dd>Aglive</dd>
-    <dt>Where</dt>
-    <dd>Australia (Remote)</dd>
-    <dt>When</dt>
-    <dd>2020-2021</dd>
-    <dt>Tech</dt>
-    <dd>React, Typescript, Node, MongoDB</dd>
-</dl>
-
-Fond memories of this one.
-
-## Web Development Agency
-
-<dl>
-    <dt>Company</dt>
-    <dd>Derp Technology (yes, that was really their name...)</dd>
-    <dt>Where</dt>
-    <dd>New Zealand (Remote)</dd>
-    <dt>When</dt>
-    <dd>2020</dd>
-    <dt>Tech</dt>
-    <dd>React, Typescript, AWS, Google Maps</dd>
-</dl>
-
-- replacing a paid for theme, and in the process replacing 7k lines of SASS with 1k lines of CSS and having it look exactly the same.
-
-- introducing typescript to the codebase - first via jsdoc comments, and then finally a pretty trivial transformation at the end.
-
-## Election Processing
-
-<dl>
-    <dt>Company</dt>
-    <dd>Election Services</dd>
-    <dt>Where</dt>
-    <dd>Auckland, New Zealand</dd>
-    <dt>When</dt>
-    <dd>2014-2015</dd>
-    <dt>Tech</dt>
-    <dd>C++, Qt, Postgres</dd>
-</dl>
-
-- Learned C++ on the job
-
-## Airport Maintenance Software
-
-<dl>
-    <dt>Company</dt>
-    <dd>NovoTech Ltd</dd>
-    <dt>Where</dt>
-    <dd>Auckland Airport, New Zealand</dd>
-</dl>
-
-My first time writing software professionally, and it had a huge impact on me.
-
-Finally had my degree, but also had a truck-load of doubts if I could be effective in the real world.
-
-Came in with no team, no supervisor, and no guidelines. And I knocked out of the park. It was a real confidence booster.
-
-Note: I was full of functional fervour at the time, so I wrote it in F#. No one there even knew or cared what C# or F# was, they just wanted a desktop app.
-
-# Employment History
-
-## Livestock Product Manufacturer
-
-<dl>
-    <dt>Company</dt>
-    <dd>Allflex Livestock Intelligence</dd>
-    <dt>Where</dt>
-    <dd>Palmerston North, New Zealand</dd>
-    <dt>When</dt>
-    <dd>2016-2020</dd>
-    <dt>Tech</dt>
-    <dd>C#, ASP.NET, SQL Server, Dyanmics GP (don't ask)</dd>
-</dl>
-
-Biggest legacy system I'd worked on to date.
-
-I learned the value of keeping a system running - our software went down, and two factories stopped functioning.
-
-Exposed to a vertical slice of the whole supply chain
-
-## Practice Management Software
-
-<dl>
-    <dt>Company</dt>
-    <dd>Gensolve</dd>
-    <dt>Where</dt>
-    <dd>Wellington, New Zealand</dd>
-    <dt>When</dt>
-    <dd>2014-2015 (Office closed)</dd>
-    <dt>Tech</dt>
-    <dd>C#, Oracle Database</dd>
-</dl>
-
-This was the first time I saw real life legacy software, and wow was it an eye opener.
-
-They ended up closing the local office, and after a stint of remote work I was made red
-shortly after.
