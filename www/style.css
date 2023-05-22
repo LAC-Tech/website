@@ -1,7 +1,8 @@
 :root {
 	--primary: hsl(200, 100%, 37.5%);
 	--darkest-grey: hsl(200, 10%, 15%);
-	--grey: hsl(200, 0%, 90%);;
+	--nav-border: hsl(200, 25%, 90%);
+	--section-border: hsl(200, 25%, 75%);
 	--lightest-grey: #fff;
 	--bg: hsl(20, 50%, 97.5%);
 }
@@ -13,7 +14,7 @@ html {
 body {
 	font-family: Garamond, serif;
 	font-size: 1.024em; 
-  	line-height: 1.5;
+ 	line-height: 1.5;
 	background: radial-gradient(circle, whitesmoke, var(--bg)); 
 	margin: 0em;
 	height: 100%;
@@ -38,17 +39,20 @@ h1, h2, h3, ul {
 }
 
 h1, h2, h3 {
-	font-variant: small-caps;
 	margin: 0;
 }
 
+h1, h2 {
+	font-variant: small-caps;
+}
+
 h1 { 
-	font-size: 140%;
-	margin: 0.5em 0 0.25em 0;
+	font-size: 150%;
+	margin: 0.25em 0 0.25em 0;
 }
 
 h2 { 
-	font-size: 125%; 
+	font-size: 130%; 
 	margin: 0.4em 0 0.2em 0;
 }
 
@@ -67,7 +71,7 @@ body, a {
 }
 
 nav {
-	border-bottom: 1px solid var(--grey); 
+	border-bottom: 1px solid var(--nav-border); 
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
 	top: 0;
@@ -108,6 +112,12 @@ main {
 
 main a {
 	font-weight: bold;
+}
+
+hr {
+	border: 1px solid var(--section-border);
+	width: 100%;
+	margin: 1rem 0 1rem 0;
 }
 
 p, ul {

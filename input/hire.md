@@ -8,6 +8,8 @@ To work with smart, driven people on distributed systems that solve real world p
 
 My career has centered on capturing and managing data across the supply chain. Of particular interest is software deployed in the field, where reliable connectivity cannot be assumed. These industry challenges have motivated me to specialise in this area. 
 
+---
+
 # Professional Experience
 
 ## Summary
@@ -147,6 +149,8 @@ This was the first time I saw real life legacy software, and wow was it an eye o
 
 They ended up closing the local office, and after a stint of remote work I was made red
 shortly after.
+
+---
 
 # Education
 
