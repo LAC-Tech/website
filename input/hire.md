@@ -24,45 +24,61 @@ My career has centered on capturing and managing data across the supply chain. T
 ### Supply Chain Consulting
 
 <dl>
-    <dt>Company</dt>
-    <dd>Unique Excellence</dd>
-    <dt>Where</dt>
-    <dd>Australia (Remote)</dd>
-    <dt>When</dt>
-    <dd>2022</dd>
-    <dt>Tech</dt>
-    <dd>Google docs, Email, Github, Word (pure consulting role)</dd>
+  <dt>Company</dt>
+  <dd>Unique Excellence</dd>
+  <dt>Role</dt>
+  <dd>Solution Achitect</dd>
+  <dt>Where</dt>
+  <dd>Australia (Remote)</dd>
+  <dt>When</dt>
+  <dd>2022</dd>
 </dl>
+
+- Conducted technical solution diagnostic for remote Aid Posts in Papua New Guinea.
+- Analyzed current IT systems and recommended pragmatic low-tech paths forward to digitize sending and receiving of pharmaceutical supplies.
+- Worked to develop a proposal for Global Fund to help address issues with poor connectivity, slow turn around times, and lack of transparency in receiving pharmaceutical supplies.
 
 ### Remote Water Monitoring 
 
 <dl>
-    <dt>Company</dt>
-    <dd>Farmbot Monitoring Solutions</dd>
-    <dt>Where</dt>
-    <dd>Australia (Remote)</dd>
-    <dt>When</dt>
-    <dd>2022</dd>
-    <dt>Tech</dt>
-    <dd>React, Typescript, IndexedDB</dd>
+  <dt>Company</dt>
+  <dd>Farmbot Monitoring Solutions</dd>
+  <dt>Role</dt>
+  <dd>Software Engineer</dd>
+  <dt>Where</dt>
+  <dd>Australia (Remote)</dd>
+  <dt>When</dt>
+  <dd>2022</dd>
+  <dt>Tech</dt>
+  <dd>React, Typescript, IndexedDB</dd>
 </dl>
+
+- Assisted development team in building features so customers could be migrated to new web app.
+- Improved performance by migrating client side data to a new database.
 
 <br>
 
 ### Supply Chain Traceability for Livestock 
 
 <dl>
-    <dt>Company</dt>
-    <dd>Aglive</dd>
-    <dt>Where</dt>
-    <dd>Australia (Remote)</dd>
-    <dt>When</dt>
-    <dd>2020-2021</dd>
-    <dt>Tech</dt>
-    <dd>React, Typescript, Node, MongoDB</dd>
+  <dt>Company</dt>
+  <dd>Aglive</dd>
+  <dt>Role</dt>
+  <dd>Tech Lead</dd>
+  <dt>Where</dt>
+  <dd>Australia (Remote)</dd>
+  <dt>When</dt>
+  <dd>2020-2021</dd>
+  <dt>Tech</dt>
+  <dd>React, Typescript, Node, MongoDB</dd>
 </dl>
 
-Fond memories of this one.
+- Led development of blockchain solution to verify Australian black Angus beef across the supply chain.
+- Led development of IOT device integration to monitor livestock via satellite.
+- Led deployment of aforementioned system for our first Canadian customers.
+- Architect for automatic form generation to communicate food and treatment status of animals as they move across the value chain.
+- Broke down Silos between backend, frontend & business
+
 
 <br>
 
@@ -71,6 +87,8 @@ Fond memories of this one.
 <dl>
     <dt>Company</dt>
     <dd>Derp Technology (yes, that was really their name...)</dd>
+    <dt>Role</dt>
+    <dd>Software Engineer</dd>
     <dt>Where</dt>
     <dd>New Zealand (Remote)</dd>
     <dt>When</dt>
@@ -80,9 +98,9 @@ Fond memories of this one.
 </dl>
 
 - replacing a paid for theme, and in the process replacing 7k lines of SASS with 1k lines of CSS and having it look exactly the same.
-
-- introducing typescript to the codebase - first via jsdoc comments, and then finally a pretty trivial transformation at the end.
-
+- added strict JSDoc types to JS app, then converted to Typescript 
+- Designed an app that alerted cool store professionals to actionable events taking place in their facilities.
+- Led development of dashboard solution to monitor ripeness indicators for fruit.
 <br>
 
 ### Election Processing
@@ -90,6 +108,8 @@ Fond memories of this one.
 <dl>
     <dt>Company</dt>
     <dd>Election Services</dd>
+    <dt>Role</dt>
+    <dd>Software Engineer</dd>
     <dt>Where</dt>
     <dd>Auckland, New Zealand</dd>
     <dt>When</dt>
@@ -99,6 +119,7 @@ Fond memories of this one.
 </dl>
 
 - Learned C++ on the job
+- Diagnosed memory issues with valgrind
 
 <br>
 
@@ -107,27 +128,32 @@ Fond memories of this one.
 <dl>
     <dt>Company</dt>
     <dd>NovoTech Ltd</dd>
+    <dt>Role</dt>
+    <dd>Software Engineer</dd>
     <dt>Where</dt>
     <dd>Auckland Airport, New Zealand</dd>
+    <dt>When</dt>
+    <dd>2014</dd>
+    <dt>Tech</dt>
+    <dd>F#, C#, Excel</dd>
 </dl>
 
+- First job. No supervisor, no team and no requirements
+
+
 My first time writing software professionally, and it had a huge impact on me.
-
-Finally had my degree, but also had a truck-load of doubts if I could be effective in the real world.
-
-Came in with no team, no supervisor, and no guidelines. And I knocked out of the park. It was a real confidence booster.
-
-Note: I was full of functional fervour at the time, so I wrote it in F#. No one there even knew or cared what C# or F# was, they just wanted a desktop app.
 
 <br>
 
 ## Employment History
 
-### Livestock Product Manufacturer
+### Livestock Product Manufacturing & Distribution
 
 <dl>
     <dt>Company</dt>
     <dd>Allflex Livestock Intelligence</dd>
+    <dt>Role</dt>
+    <dd>Programmer Analyst</dd>
     <dt>Where</dt>
     <dd>Palmerston North, New Zealand</dd>
     <dt>When</dt>
@@ -149,6 +175,8 @@ Exposed to a vertical slice of the whole supply chain
 <dl>
     <dt>Company</dt>
     <dd>Gensolve</dd>
+    <dt>Role</dt>
+    <dd>Software Engineer</dd>
     <dt>Where</dt>
     <dd>Wellington, New Zealand</dd>
     <dt>When</dt>
@@ -166,6 +194,8 @@ shortly after.
 
 # Education
 
+## Certifications
+
 <dl>
   <dt>Quallifcation</dt>
   <dd>BSc Computer Science</dd>
@@ -179,19 +209,20 @@ shortly after.
   <dd>Goethe Institut</dd>
 </dl>
 
-## Self study
+## Papers
 
 <table>
   <thead>
 		<tr>
-		  <th>Paper</th>
+		  <th>Name</th>
 			<th>Understanding</th>
 		</tr>
 	</thead>
   <tbody>
     <tr>
       <td>
-        <i>An Optimized Conflict-Free Replicated Set<i>
+        <i>An Optimized Conflict-Free Replicated Set</i>
+        <div>(Bieniusa, Zawirski, Preguiça, Shapiro, Baquero, Balegas, Duarte 2012)</div>
       </td>
       <td>
         <meter min="0" max="3" value="3" />
@@ -200,6 +231,7 @@ shortly after.
     <tr>
       <td>
         <i>Viewstamped Replication Revisited</i>
+        <div>(Liskov, Cowling 2012)</div>
       </td>
       <td>
         <meter min="0" max="3" value="2" />
@@ -208,6 +240,7 @@ shortly after.
     <tr>
       <td>
         <i>Conflict-Free replicated Relations for Multi-Synchronous Database Management at Edge</i>
+        <div>(Yu, Ignat 2020)</div>
       </td>
       <td>
         <meter min="0" max="3" value="1" />
@@ -224,14 +257,24 @@ shortly after.
     <tr>
       <td>
         <i>Logical Physical Clocks and Consistent Snapshots in Globally Distributed Systems</i>
+        <div>(Kulkarot, Demirbas, Madeppa, Avva, Leone 2014)</div>
       </td>
       <td>
-        <meter min="0" max="3" value="1" />
+        <meter min="0" max="3" value="2" />
       </td>
     </tr>
     <tr>
       <td>
+        <i>A comprehensive study of Convergent and Commutative Replicated Data Types</i>
+        <div>(Shapiro, Preguiça, Baquero, Zawirski 2011)</div>
+      </td>
+      <td>
+        <meter min="0" max="3" value="2" />
+      </td>
+    </tr>
+      <td>
         <i>Delta State Replicated Data Types</i>
+        <div>(Almeida, Shoker, Baquero 2018)</div>
       </td>
       <td>
         <meter min="0" max="3" value="1" />
@@ -240,6 +283,7 @@ shortly after.
     <tr>
       <td>
         <i>Detection of Mutual Inconsistency in Distributed Systems</i>
+        <div>(Parker, Popek, Rudisin, Stoughton, Walker, Walton, Chow, Edwards, Kiser, Kline 1983)</div>
       </td>
       <td>
         <meter min="0" max="3" value="2" />
@@ -248,6 +292,7 @@ shortly after.
     <tr>
       <td>
         <i>Time, Clocks, and the Ordering of Events in a Distributed System</i>
+        <div>(Lamport 1978)</div>
       </td>
       <td>
         <meter min="0" max="3" value="2" />
@@ -256,6 +301,7 @@ shortly after.
     <tr>
       <td>
         <i>Timestamps in Message-Passing Systems That Preserve the Partial Ordering</i>
+        <div>(Fidge 1988)</div>
       </td>
       <td>
         <meter min="0" max="3" value="2" />

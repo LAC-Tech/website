@@ -1,7 +1,7 @@
 :root {
 	--primary: hsl(200, 100%, 37.5%);
-	--bg: hsl(200, 100%, 2.5%);
-	--fg: hsl(20, 10%, 80%);
+	--bg: hsl(200, 10%, 25%);
+	--fg: hsl(20, 10%, 90%);
 	--nav-border: hsl(200, 25%, 90%);
 	--section-border: hsl(200, 25%, 75%);
 	--lightest-grey: #fff;
@@ -13,7 +13,7 @@ html {
 
 body {
 	font-family: Garamond, serif;
-	font-size: 1.024em; 
+	font-size: 1.1em; 
  	line-height: 1.5;
 	background: var(--bg);
 	/* background: radial-gradient(circle, whitesmoke, var(--bg)); */
