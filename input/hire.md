@@ -6,7 +6,7 @@ title: Hire Lewis Campbell
 
 To work with smart, driven people on distributed systems that solve real world problems, reliably and quickly.
 
-My career has centered on capturing and managing data across the supply chain. Of particular interest is software deployed in the field, where reliable connectivity cannot be assumed. These industry challenges have motivated me to specialise in this area. 
+My career has centered on capturing and managing data across the supply chain. The challenges of doing this in the field - where connectivity cannot be assumed - has been an enduring motivation in my study of distributed systems. 
 
 ---
 
@@ -47,6 +47,8 @@ My career has centered on capturing and managing data across the supply chain. O
     <dd>React, Typescript, IndexedDB</dd>
 </dl>
 
+<br>
+
 ### Supply Chain Traceability for Livestock 
 
 <dl>
@@ -61,6 +63,8 @@ My career has centered on capturing and managing data across the supply chain. O
 </dl>
 
 Fond memories of this one.
+
+<br>
 
 ### Web Development Agency
 
@@ -79,6 +83,8 @@ Fond memories of this one.
 
 - introducing typescript to the codebase - first via jsdoc comments, and then finally a pretty trivial transformation at the end.
 
+<br>
+
 ### Election Processing
 
 <dl>
@@ -93,6 +99,8 @@ Fond memories of this one.
 </dl>
 
 - Learned C++ on the job
+
+<br>
 
 ### Airport Maintenance Software
 
@@ -110,6 +118,8 @@ Finally had my degree, but also had a truck-load of doubts if I could be effecti
 Came in with no team, no supervisor, and no guidelines. And I knocked out of the park. It was a real confidence booster.
 
 Note: I was full of functional fervour at the time, so I wrote it in F#. No one there even knew or cared what C# or F# was, they just wanted a desktop app.
+
+<br>
 
 ## Employment History
 
@@ -131,6 +141,8 @@ Biggest legacy system I'd worked on to date.
 I learned the value of keeping a system running - our software went down, and two factories stopped functioning.
 
 Exposed to a vertical slice of the whole supply chain
+
+<br>
 
 ### Practice Management Software
 

@@ -1,9 +1,9 @@
 :root {
 	--primary: hsl(200, 100%, 37.5%);
-	--bg: hsl(200, 100%, 5%);
+	--bg: hsl(200, 100%, 2.5%);
 	--fg: hsl(20, 10%, 80%);
 	--nav-border: hsl(200, 25%, 90%);
-	--section-border: hsl(200, 25%, 50%);
+	--section-border: hsl(200, 25%, 75%);
 	--lightest-grey: #fff;
 }
 
@@ -48,18 +48,19 @@ h1, h2 {
 }
 
 h1 { 
-	font-size: 150%;
-	margin: 0.25em 0 0.25em 0;
+	font-size: 160%;
+	margin: 0.5rem 0 0.5rem 0;
+	text-align: center;
 }
 
 h2 { 
-	font-size: 130%; 
-	margin: 0.4em 0 0.2em 0;
+	font-size: 145%; 
+	margin: 0.5rem 0 0.25rem 0;
 }
 
 h3 { 
 	font-size: 110%; 
-	margin: 0.3em 0 0.15em 0;
+	margin: 0.5rem 0 0.25rem 0;
 }
 
 header, div, p {
