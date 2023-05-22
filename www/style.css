@@ -1,10 +1,10 @@
 :root {
 	--primary: hsl(200, 100%, 37.5%);
-	--darkest-grey: hsl(200, 10%, 15%);
+	--bg: hsl(200, 100%, 5%);
+	--fg: hsl(20, 10%, 80%);
 	--nav-border: hsl(200, 25%, 90%);
-	--section-border: hsl(200, 25%, 75%);
+	--section-border: hsl(200, 25%, 50%);
 	--lightest-grey: #fff;
-	--bg: hsl(20, 50%, 97.5%);
 }
 
 html {
@@ -15,7 +15,8 @@ body {
 	font-family: Garamond, serif;
 	font-size: 1.024em; 
  	line-height: 1.5;
-	background: radial-gradient(circle, whitesmoke, var(--bg)); 
+	background: var(--bg);
+	/* background: radial-gradient(circle, whitesmoke, var(--bg)); */
 	margin: 0em;
 	height: 100%;
 }
@@ -67,7 +68,7 @@ header, div, p {
 
 
 body, a {
-	color: var(--darkest-grey);
+	color: var(--fg);
 }
 
 nav {
