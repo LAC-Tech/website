@@ -1,7 +1,7 @@
 :root {
 	--primary: hsl(200, 100%, 37.5%);
-	--bg: hsl(200, 10%, 25%);
-	--fg: hsl(20, 10%, 90%);
+	--bg: hsl(200, 50%, 10%);
+	--fg: hsl(20, 10%, 95%);
 	--nav-border: hsl(200, 25%, 90%);
 	--section-border: hsl(200, 25%, 75%);
 	--lightest-grey: #fff;
@@ -15,7 +15,8 @@ body {
 	font-family: Garamond, serif;
 	font-size: 1.1em; 
  	line-height: 1.5;
-	background: var(--bg);
+	background: linear-gradient(var(--bg), #030303); 
+	background-attachment: fixed;
 	/* background: radial-gradient(circle, whitesmoke, var(--bg)); */
 	margin: 0em;
 	height: 100%;
@@ -82,8 +83,8 @@ nav {
 
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	padding-left: 64px;
-	padding-right: 64px;
+	padding-left: 50px;
+	padding-right: 50px;
 
 	display: flex;
 	flex-direction: row;
@@ -147,7 +148,7 @@ dd {
 table {
 	width: 100%;
 	padding: 0;
-	border: 1px solid var(--darkest-grey);
+	border: 1px solid var(--fg);
 }
 
 thead {
@@ -187,8 +188,8 @@ meter::-webkit-meter-optimum-value {
 
 @media screen and (max-width: 640px) {
 	main, nav {
-		padding-left: 32px;
-		padding-right: 32px;
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 }
 

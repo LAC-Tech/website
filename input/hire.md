@@ -6,7 +6,7 @@ title: Hire Lewis Campbell
 
 To work with smart, driven people on distributed systems that solve real world problems, reliably and quickly.
 
-My career has centered on capturing and managing data across the supply chain. The challenges of doing this in the field - where connectivity cannot be assumed - has been an enduring motivation in my study of distributed systems. 
+My career has centered on capturing and managing data across the supply chain. The challenges of doing this in the field - where connectivity cannot be assumed - has been an enduring interest of mine.
 
 ---
 
@@ -14,9 +14,9 @@ My career has centered on capturing and managing data across the supply chain. T
 
 ## Summary
 
-- Coded in a wide variety of paradigms, from functional programming to systems programming
-- Deployed backend, frontend, and desktop software
-- Solved challanges using document databases, relational databases and key-value stores
+- Developed in many paradigms, from functional programming to systems programming.
+- Deployed backend, frontend, and desktop software.
+- Modelled data using document databases, relational databases and key-value stores.
 - Senior work as a Technical Lead and Solutions Architect.
 
 ## Past Clients
@@ -24,27 +24,27 @@ My career has centered on capturing and managing data across the supply chain. T
 ### Supply Chain Consulting
 
 <dl>
-  <dt>Company</dt>
-  <dd>Unique Excellence</dd>
   <dt>Role</dt>
   <dd>Solution Achitect</dd>
+  <dt>Company</dt>
+  <dd>Unique Excellence</dd>
   <dt>Where</dt>
   <dd>Australia (Remote)</dd>
   <dt>When</dt>
   <dd>2022</dd>
 </dl>
 
-- Conducted technical solution diagnostic for remote Aid Posts in Papua New Guinea.
-- Analyzed current IT systems and recommended pragmatic low-tech paths forward to digitize sending and receiving of pharmaceutical supplies.
-- Worked to develop a proposal for Global Fund to help address issues with poor connectivity, slow turn around times, and lack of transparency in receiving pharmaceutical supplies.
+- Developed a technical solution diagnostic for "Aid Posts" in remote regions of PNG, analyzing current processes and software solutions,
+- Solution took into account challenging ground conditions, including poor connectivity, slow turnaround times, and lack of transparency.
+- Delivered technical component of proposal to Global Fund.
 
 ### Remote Water Monitoring 
 
 <dl>
-  <dt>Company</dt>
-  <dd>Farmbot Monitoring Solutions</dd>
   <dt>Role</dt>
   <dd>Software Engineer</dd>
+  <dt>Company</dt>
+  <dd>Farmbot Monitoring Solutions</dd>
   <dt>Where</dt>
   <dd>Australia (Remote)</dd>
   <dt>When</dt>
@@ -61,10 +61,10 @@ My career has centered on capturing and managing data across the supply chain. T
 ### Supply Chain Traceability for Livestock 
 
 <dl>
-  <dt>Company</dt>
-  <dd>Aglive</dd>
   <dt>Role</dt>
   <dd>Tech Lead</dd>
+  <dt>Company</dt>
+  <dd>Aglive</dd>
   <dt>Where</dt>
   <dd>Australia (Remote)</dd>
   <dt>When</dt>
@@ -85,10 +85,10 @@ My career has centered on capturing and managing data across the supply chain. T
 ### Web Development Agency
 
 <dl>
-    <dt>Company</dt>
-    <dd>Derp Technology (yes, that was really their name...)</dd>
     <dt>Role</dt>
     <dd>Software Engineer</dd>
+    <dt>Company</dt>
+    <dd>Derp Technology (yes, that was really their name...)</dd>
     <dt>Where</dt>
     <dd>New Zealand (Remote)</dd>
     <dt>When</dt>
@@ -106,10 +106,10 @@ My career has centered on capturing and managing data across the supply chain. T
 ### Election Processing
 
 <dl>
-    <dt>Company</dt>
-    <dd>Election Services</dd>
     <dt>Role</dt>
     <dd>Software Engineer</dd>
+    <dt>Company</dt>
+    <dd>Election Services</dd>
     <dt>Where</dt>
     <dd>Auckland, New Zealand</dd>
     <dt>When</dt>
@@ -126,10 +126,10 @@ My career has centered on capturing and managing data across the supply chain. T
 ### Airport Maintenance Software
 
 <dl>
-    <dt>Company</dt>
-    <dd>NovoTech Ltd</dd>
     <dt>Role</dt>
     <dd>Software Engineer</dd>
+    <dt>Company</dt>
+    <dd>NovoTech Ltd</dd>
     <dt>Where</dt>
     <dd>Auckland Airport, New Zealand</dd>
     <dt>When</dt>
@@ -150,10 +150,10 @@ My first time writing software professionally, and it had a huge impact on me.
 ### Livestock Product Manufacturing & Distribution
 
 <dl>
-    <dt>Company</dt>
-    <dd>Allflex Livestock Intelligence</dd>
     <dt>Role</dt>
     <dd>Programmer Analyst</dd>
+    <dt>Company</dt>
+    <dd>Allflex Livestock Intelligence</dd>
     <dt>Where</dt>
     <dd>Palmerston North, New Zealand</dd>
     <dt>When</dt>
@@ -173,10 +173,10 @@ Exposed to a vertical slice of the whole supply chain
 ### Practice Management Software
 
 <dl>
-    <dt>Company</dt>
-    <dd>Gensolve</dd>
     <dt>Role</dt>
     <dd>Software Engineer</dd>
+    <dt>Company</dt>
+    <dd>Gensolve</dd>
     <dt>Where</dt>
     <dd>Wellington, New Zealand</dd>
     <dt>When</dt>
