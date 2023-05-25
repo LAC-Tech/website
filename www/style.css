@@ -1,6 +1,6 @@
 :root {
 	--primary: hsl(200, 100%, 37.5%);
-	--bg: hsl(200, 50%, 10%);
+	--bg: hsl(200, 50%, 20%);
 	--fg: hsl(20, 10%, 95%);
 	--nav-border: hsl(200, 25%, 90%);
 	--section-border: hsl(200, 25%, 75%);

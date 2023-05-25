@@ -73,12 +73,10 @@ My career has centered on capturing and managing data across the supply chain. T
   <dd>React, Typescript, Node, MongoDB</dd>
 </dl>
 
-- Led development of blockchain solution to verify Australian black Angus beef across the supply chain.
-- Led development of IOT device integration to monitor livestock via satellite.
-- Led deployment of aforementioned system for our first Canadian customers.
-- Architect for automatic form generation to communicate food and treatment status of animals as they move across the value chain.
-- Broke down Silos between backend, frontend & business
-
+- Led the integration of IoT devices for satellite-based livestock monitoring, securing the company's first customers in Canada.
+- Led the development of an end-to-end demo for Telstra, Australia's largest telecommunications company.
+- Managed the project for a blockchain solution, ensuring the verification of Australian black Angus beef across the supply chain.
+- Provided training to the team in TypeScript and object-oriented design.
 
 <br>
 
@@ -209,7 +207,9 @@ shortly after.
   <dd>Goethe Institut</dd>
 </dl>
 
-## Papers
+## Distributed System Papers
+
+I'm a firm believer in contiual education. I'd be delighted to discuss any of the below!
 
 <table>
   <thead>
