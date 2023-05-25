@@ -83,8 +83,8 @@ nav {
 
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 32px;
+	padding-right: 32px;
 
 	display: flex;
 	flex-direction: row;
@@ -181,15 +181,15 @@ meter::-webkit-meter-optimum-value {
 
 @media screen and (max-width: 1024px) {
 	main {
-		padding-left: 64px;	
-		padding-right: max(64px, calc(100% - 720px - 64px));
+		padding-left: 50px;	
+		padding-right: max(50px, calc(100% - 720px - 50px));
 	}
 }
 
 @media screen and (max-width: 640px) {
 	main, nav {
-		padding-left: 25px;
-		padding-right: 25px;
+		padding-left: 16px;
+		padding-right: 16px;
 	}
 }
 

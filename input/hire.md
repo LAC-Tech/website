@@ -75,8 +75,8 @@ My career has centered on capturing and managing data across the supply chain. T
 
 - Led the integration of IoT devices for satellite-based livestock monitoring, securing the company's first customers in Canada.
 - Led the development of an end-to-end demo for Telstra, Australia's largest telecommunications company.
-- Managed the project for a blockchain solution, ensuring the verification of Australian black Angus beef across the supply chain.
-- Provided training to the team in TypeScript and object-oriented design.
+- Project manager for end-to-end verification of high-end Australian beef from farm to fork.
+- Provided training to the team in TypeScript and Object-Oriented design.
 
 <br>
 
@@ -95,10 +95,11 @@ My career has centered on capturing and managing data across the supply chain. T
     <dd>React, Typescript, AWS, Google Maps</dd>
 </dl>
 
-- replacing a paid for theme, and in the process replacing 7k lines of SASS with 1k lines of CSS and having it look exactly the same.
-- added strict JSDoc types to JS app, then converted to Typescript 
-- Designed an app that alerted cool store professionals to actionable events taking place in their facilities.
-- Led development of dashboard solution to monitor ripeness indicators for fruit.
+- Developed notification system to alert cool store professionals of actionable events relating to atmospheric conditions.
+- Migrated Javascript app to strictly-checked Typescript, by way of JSDoc annotations.
+- Replaced paid theme (7k lines of SASS) with 1k lines of CSS without changing appearance.
+- Developed MVP for a geofilter application, leveraging the Google Maps API.
+
 <br>
 
 ### Election Processing
@@ -116,6 +117,7 @@ My career has centered on capturing and managing data across the supply chain. T
     <dd>C++, Qt, Postgres</dd>
 </dl>
 
+- Updated legacy system to prepare for the 2016 local government elections.
 - Learned C++ on the job
 - Diagnosed memory issues with valgrind
 
@@ -136,11 +138,9 @@ My career has centered on capturing and managing data across the supply chain. T
     <dd>F#, C#, Excel</dd>
 </dl>
 
-- First job. No supervisor, no team and no requirements
-
-
-My first time writing software professionally, and it had a huge impact on me.
-
+- First job out of university.
+- Independently developed a work and parts scheduling application for maintenance crews at the Engineering & Emergency Services department, with no supervisor, project manager, or predefined requirements.
+- Delivered ahead of schedule.
 <br>
 
 ## Employment History
