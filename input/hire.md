@@ -138,8 +138,8 @@ My career has centered on capturing and managing data across the supply chain. T
     <dd>F#, C#, Excel</dd>
 </dl>
 
-- First job out of university.
-- Independently developed a work and parts scheduling application for maintenance crews at the Engineering & Emergency Services department, with no supervisor, project manager, or predefined requirements.
+- Developed work and parts scheduling app for maintenance crews at the Engineering & Emergency Services department.
+- First job out of university. No supervisor, project manager, or predefined requirements.
 - Delivered ahead of schedule.
 <br>
 
@@ -157,14 +157,15 @@ My career has centered on capturing and managing data across the supply chain. T
     <dt>When</dt>
     <dd>2016-2020</dd>
     <dt>Tech</dt>
-    <dd>C#, ASP.NET, SQL Server, Dyanmics GP (don't ask)</dd>
+    <dd>C#, ASP.NET, SQL Server, Dynamics GP</dd>
 </dl>
 
-Biggest legacy system I'd worked on to date.
-
-I learned the value of keeping a system running - our software went down, and two factories stopped functioning.
-
-Exposed to a vertical slice of the whole supply chain
+- Second-in-command for IT across Australasia
+- Maintained critical legacy system, where any downtime could halt production at multiple factories. 
+- Led development of new order processing API for our largest client.
+- Authored comprehensive business process documentation for factories.
+- Close collaboration with Customer Service and Production departments to handle new products and increased demand. 
+- Gained end-to-end supply chain insights by working on a system tracking order processing, job scheduling, production, quality control, and dispatch.
 
 <br>
 
@@ -180,13 +181,11 @@ Exposed to a vertical slice of the whole supply chain
     <dt>When</dt>
     <dd>2014-2015 (Office closed)</dd>
     <dt>Tech</dt>
-    <dd>C#, Oracle Database</dd>
+    <dd>C#, Oracle Database, SVN (yes, that's right)</dd>
 </dl>
 
-This was the first time I saw real life legacy software, and wow was it an eye opener.
-
-They ended up closing the local office, and after a stint of remote work I was made red
-shortly after.
+- Part of global team doing server side maintenace programming.
+- Worked directly with customers to implement features and resolve issues.
 
 ---
 
