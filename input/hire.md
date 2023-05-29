@@ -1,5 +1,5 @@
 ---
-title: Hire Lewis Campbell
+title: Lewis Campbell
 ---
 
 # Objective
@@ -21,8 +21,8 @@ My career has centered on capturing and managing data across the supply chain. T
 
 ## Past Clients
 
-### Supply Chain Consulting
 
+<!--
 <dl>
   <dt>Role</dt>
   <dd>Solution Achitect</dd>
@@ -33,45 +33,29 @@ My career has centered on capturing and managing data across the supply chain. T
   <dt>When</dt>
   <dd>2022</dd>
 </dl>
+-->
+
+### Solution Architect @ Unique Excellence (Supply Chain Consulting)
+
+*Australia (Remote) ⋄ 2022*
 
 - Developed a technical solution diagnostic for "Aid Posts" in remote regions of PNG, analyzing current processes and software solutions,
 - Solution took into account challenging ground conditions, including poor connectivity, slow turnaround times, and lack of transparency.
 - Delivered technical component of proposal to Global Fund.
 
-### Remote Water Monitoring 
+<br>
 
-<dl>
-  <dt>Role</dt>
-  <dd>Software Engineer</dd>
-  <dt>Company</dt>
-  <dd>Farmbot Monitoring Solutions</dd>
-  <dt>Where</dt>
-  <dd>Australia (Remote)</dd>
-  <dt>When</dt>
-  <dd>2022</dd>
-  <dt>Tech</dt>
-  <dd>React, Typescript, IndexedDB</dd>
-</dl>
+###  Software Engineer @ Farmbot Monitoring Solutions (Remote Water Monitoring)
+*Australia (Remote) ⋄ 2021-2023*
 
 - Assisted development team in building features so customers could be migrated to new web app.
 - Improved performance by migrating client side data to a new database.
 
+
 <br>
 
-### Supply Chain Traceability for Livestock 
-
-<dl>
-  <dt>Role</dt>
-  <dd>Tech Lead</dd>
-  <dt>Company</dt>
-  <dd>Aglive</dd>
-  <dt>Where</dt>
-  <dd>Australia (Remote)</dd>
-  <dt>When</dt>
-  <dd>2020-2021</dd>
-  <dt>Tech</dt>
-  <dd>React, Typescript, Node, MongoDB</dd>
-</dl>
+### Technical Lead @ Aglive (Supply Chain Traceability for Livestock)
+*Australia (Remote) ⋄ 2020-2021*
 
 - Led the integration of IoT devices for satellite-based livestock monitoring, securing the company's first customers in Canada.
 - Led the development of an end-to-end demo for Telstra, Australia's largest telecommunications company.
@@ -80,20 +64,8 @@ My career has centered on capturing and managing data across the supply chain. T
 
 <br>
 
-### Web Development Agency
-
-<dl>
-    <dt>Role</dt>
-    <dd>Software Engineer</dd>
-    <dt>Company</dt>
-    <dd>Derp Technology (yes, that was really their name...)</dd>
-    <dt>Where</dt>
-    <dd>New Zealand (Remote)</dd>
-    <dt>When</dt>
-    <dd>2020</dd>
-    <dt>Tech</dt>
-    <dd>React, Typescript, AWS, Google Maps</dd>
-</dl>
+### Software Engineer @ Derp Technologies Ltd (Web Development Agency)
+*New Zealand (Remote) ⋄ 2020*
 
 - Developed notification system to alert cool store professionals of actionable events relating to atmospheric conditions.
 - Migrated Javascript app to strictly-checked Typescript, by way of JSDoc annotations.
@@ -102,20 +74,8 @@ My career has centered on capturing and managing data across the supply chain. T
 
 <br>
 
-### Election Processing
-
-<dl>
-    <dt>Role</dt>
-    <dd>Software Engineer</dd>
-    <dt>Company</dt>
-    <dd>Election Services</dd>
-    <dt>Where</dt>
-    <dd>Auckland, New Zealand</dd>
-    <dt>When</dt>
-    <dd>2014-2015</dd>
-    <dt>Tech</dt>
-    <dd>C++, Qt, Postgres</dd>
-</dl>
+### Software Engineer @ Election Services 
+*Auckland, New Zealand ⋄ 2020*
 
 - Updated legacy system to prepare for the 2016 local government elections.
 - Learned C++ on the job
@@ -123,20 +83,8 @@ My career has centered on capturing and managing data across the supply chain. T
 
 <br>
 
-### Airport Maintenance Software
-
-<dl>
-    <dt>Role</dt>
-    <dd>Software Engineer</dd>
-    <dt>Company</dt>
-    <dd>NovoTech Ltd</dd>
-    <dt>Where</dt>
-    <dd>Auckland Airport, New Zealand</dd>
-    <dt>When</dt>
-    <dd>2014</dd>
-    <dt>Tech</dt>
-    <dd>F#, C#, Excel</dd>
-</dl>
+### Software Engineer @ NovoTech Ltd (Airport Maintenance Software)
+*Auckland Airport, New Zealand ⋄ 2014*
 
 - Developed work and parts scheduling app for maintenance crews at the Engineering & Emergency Services department.
 - First job out of university. No supervisor, project manager, or predefined requirements.
@@ -145,22 +93,11 @@ My career has centered on capturing and managing data across the supply chain. T
 
 ## Employment History
 
-### Livestock Product Manufacturing & Distribution
+### Programmer Analyst @ Allflex Livestock Intelligence (Manufacturing & Distribution)
 
-<dl>
-    <dt>Role</dt>
-    <dd>Programmer Analyst</dd>
-    <dt>Company</dt>
-    <dd>Allflex Livestock Intelligence</dd>
-    <dt>Where</dt>
-    <dd>Palmerston North, New Zealand</dd>
-    <dt>When</dt>
-    <dd>2016-2020</dd>
-    <dt>Tech</dt>
-    <dd>C#, ASP.NET, SQL Server, Dynamics GP</dd>
-</dl>
+*Palmerston North, New Zealand ⋄ 2016-2020*
 
-- Second-in-command for IT across Australasia
+- Second-in-command for IT across Australasia.
 - Maintained critical legacy system, where any downtime could halt production at multiple factories. 
 - Led development of new order processing API for our largest client.
 - Authored comprehensive business process documentation for factories.
@@ -171,18 +108,7 @@ My career has centered on capturing and managing data across the supply chain. T
 
 ### Practice Management Software
 
-<dl>
-    <dt>Role</dt>
-    <dd>Software Engineer</dd>
-    <dt>Company</dt>
-    <dd>Gensolve</dd>
-    <dt>Where</dt>
-    <dd>Wellington, New Zealand</dd>
-    <dt>When</dt>
-    <dd>2014-2015 (Office closed)</dd>
-    <dt>Tech</dt>
-    <dd>C#, Oracle Database, SVN (yes, that's right)</dd>
-</dl>
+*Wellington, New Zealand ⋄ 2014-2015 (Office closed*
 
 - Part of global team doing server side maintenace programming.
 - Worked directly with customers to implement features and resolve issues.
@@ -212,13 +138,11 @@ I'm a firm believer in contiual education. I'd be delighted to discuss any of th
 
 <table>
   <thead>
-		<tr>
-		  <th>Name</th>
-			<th>Understanding</th>
-		</tr>
+		<tr> <th>Name</th>
+			<th>Understanding</th> </tr>
 	</thead>
   <tbody>
-    <tr>
+    <tr)>
       <td>
         <i>An Optimized Conflict-Free Replicated Set</i>
         <div>(Bieniusa, Zawirski, Preguiça, Shapiro, Baquero, Balegas, Duarte 2012)</div>
