@@ -22,6 +22,10 @@ body {
 	height: 100%;
 }
 
+details {
+	width: 100%;
+}
+
 img {
 	border-radius: 2px;
 	max-width: 100%;
@@ -55,7 +59,7 @@ h1 {
 }
 
 h2 { 
-	font-size: 145%; 
+	font-size: 150%; 
 	margin: 0.5rem 0 0.25rem 0;
 }
 
@@ -157,6 +161,10 @@ thead {
 
 td, th {
 	padding: 0.25em;
+}
+
+th {
+	text-align: left;
 }
 
 meter::-webkit-meter-optimum-value {
