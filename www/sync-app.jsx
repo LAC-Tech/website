@@ -49,9 +49,7 @@ const Text = props => (
  * @property {{simple: VM.SimpleButtons, text: VM.TextButtons}} buttons
  */
 
-/** 
- * @param {CRDTProps} props
- */
+/** @param {CRDTProps} props */
 const CRDT = props => (
 	<div class="crdt">
 		<h2>{props.name}</h2>
@@ -81,14 +79,12 @@ const App = () => {
 			<h1>Sync About It</h1>
 			<label for="crdt-selector">CRDT:</label>
 			<select name="CRDT" id="crdt-selector" onChange={handleSelectChange}>
-				<For each={state.options}>
-					{([value, text]) => {
-						const selected = location.hash.substring(1) === value
-
-						return <option value={value} selected={selected}>{text}</option>
-					}}
-				</For>
-			</select>
+				<option value="g-counter">Increment-Only Counter</option>
+				<option value="pn-counter">Positive-Negative Counter</option>
+				<option value="mv-register">Multi-Value Register</option>
+				<option value="g-set">Grow-Only Set</option>
+				<option value="or-set">Observed Remove Set</option>
+			</select>		
 			<div id="main-wrapper">
 				<CRDT
 					name="Local Node"

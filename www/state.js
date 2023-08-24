@@ -4,44 +4,37 @@ import {mapObject} from "./util.js"
 import { gCounter, pnCounter, mvRegister, gSet, orSet, optimizedORSet } from "./crdt.js"
 
 // Reading
-export { localFields, remoteFields, localButtons, remoteButtons, selectedCrdt, options }
+export { localFields, remoteFields, localButtons, remoteButtons, selectedCrdt }
 // Writing
 export { setSelectedCrdt, biDirectionalSync }
 
 const crdts = {
 	'g-counter': {
-		name: "Increment-Only Counter",
 		local: createSignal(gCounter('local')),
 		remote: createSignal(gCounter('remote'))
 	},
 	'pn-counter': {
-		name: "Positive-Negative Counter",
 		local: createSignal(pnCounter('local')),
 		remote: createSignal(pnCounter('remote'))
 	},
 	'mv-register': {
-		name: "Multi-Value Register",
 		local: createSignal(mvRegister('local')),
 		remote: createSignal(mvRegister('remote'))
 	},
 	'g-set': {
-		name: "Grow-Only Set",
 		local: createSignal(gSet()),
 		remote: createSignal(gSet())
 	},
 	'or-set': {
-		name: "Observed Remove Set",
 		local: createSignal(optimizedORSet('local')),
 		remote: createSignal(optimizedORSet('remote'))
 	}
 }
 
+const [selectedCrdt, setSelectedCrdt] = createSignal(
+	/**@type {keyof crdts} */ 'g-counter')
 
-const options = Object.entries(crdts).map(([k, v]) => [k, v.name])
-
-const [selectedCrdt, setSelectedCrdt] = createSignal(options[0][0])
-
-const getCrdt = () => {
+const getCrdtSystem = () => {
 	const crdt = selectedCrdt()
 
 	if (crdt in crdts) {
@@ -53,7 +46,7 @@ const getCrdt = () => {
 }
 
 const biDirectionalSync = () => {
-	const c = getCrdt()
+	const c = getCrdtSystem()
 	const {local: [local, setLocal], remote: [remote, setRemote]} = c
 
 	/* 
@@ -66,18 +59,18 @@ const biDirectionalSync = () => {
 }
 
 /** @param {'local' | 'remote'} nodeId */
-const crdt = nodeId => getCrdt()[nodeId]
+const getCrdt = nodeId => getCrdtSystem()[nodeId][0]()
 
 /** @return VM.TextFields */
-const localFields = () => crdt('local')[0]().textLabels
-const remoteFields = () => crdt('remote')[0]().textLabels
+const localFields = () => getCrdt('local').textLabels
+const remoteFields = () => getCrdt('remote').textLabels
 
 const localButtons = () => {
-	const [crdt, setCrdt] = getCrdt().local
+	const [crdt, setCrdt] = getCrdtSystem().local
 	return crdt().buttons(setCrdt)
 }
 
 const remoteButtons = () => {
-	const [crdt, setCrdt] = getCrdt().remote
+	const [crdt, setCrdt] = getCrdtSystem().remote
 	return crdt().buttons(setCrdt)
 }
