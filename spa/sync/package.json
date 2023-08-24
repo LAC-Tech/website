@@ -19,7 +19,6 @@
     "@fast-check/vitest": "^0.0.3",
     "jsdom": "^21.1.1",
     "vite": "^4.2.0",
-    "vite-plugin-pwa": "^0.14.7",
     "vite-plugin-solid": "^2.6.1",
     "vitest": "^0.29.3"
   }

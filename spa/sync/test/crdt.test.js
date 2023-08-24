@@ -3,7 +3,7 @@ import { test, fc } from '@fast-check/vitest'
 
 import { nanoid } from "nanoid"
 
-import * as crdt from '../src/crdt'
+import * as crdt from '../src/crdt.js'
 
 /**
  * @template Value

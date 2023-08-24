@@ -3,7 +3,7 @@
  */
 import { render } from "solid-js/web"
 
-import App from './sync-app'
+import App from './app'
 
 const elem = document.getElementsByTagName("main")[0]
 render(() => <App/>, elem)
