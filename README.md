@@ -1,10 +1,14 @@
-# My Website
+## Project layout
 
-## index.html
+### static/
 
-Front page is a simple static site, no js except google tag manager and a service worker.
+Markdown. HTML, Original Images.
 
-## sync.html
+### dynamic/
+
+Javascript code, dependencies and tooling.
+
+#### Dynamic/Sync
 
 Sync contains my implementations of CRDTs from the following papers:
 
@@ -13,20 +17,18 @@ Sync contains my implementations of CRDTs from the following papers:
 
 All CRDTs implemented show their internal state, and have all been extensively tested for associativity, commutativity and idempotence using property based testing.
 
-# Current way to start
+### www/
 
-npm run dev
+What's going to be served to the browser and deployed. Can contain things that don't need any processing, like CSS.
 
-Currently using vite to serve the whole thing in dev.
+#### www/index.html
 
-TODO: solution for static html templating. Probably just simpler to run rake/make separately.
+Front page is a simple static site, no js except google tag manager and a service worker.
 
-# Old way to start
 
-This is structured as a caddy sever proxied by browser-sync.
-This way I can get live page updates on my phone, while caddy itself can be a reverse proxy for any server side scripts I may wish to run.
+## Running
 
-So, to start:
-
-- caddy run
-- ./devserve.sh
+TODO:
+- makefile to build static assets
+- vite for dynamic web pages
+- devserve script to browse site

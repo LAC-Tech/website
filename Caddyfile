@@ -1,9 +1,0 @@
-:2015
-
-root dist
-try_files {path}/index.html
-file_server
-
-route {
-	header /img/* Cache-Control max-age=31536000
-}
