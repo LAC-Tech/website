@@ -4,9 +4,9 @@
 
 Markdown. HTML, Original Images.
 
-### dynamic/
+### spa/
 
-Javascript code, dependencies and tooling.
+Javascript code, dependencies and tooling. Each a
 
 #### Dynamic/Sync
 
@@ -32,3 +32,15 @@ TODO:
 - makefile to build static assets
 - vite for dynamic web pages
 - devserve script to browse site
+
+## FAQ
+
+### Why not use vite for everything?
+
+I'm no longer a frontend javascript true believer. Not willing to give up solid.js for SPAs, but want to limit the blast radius of frontend tooling.
+
+Let Vite deal with javascript, and other stuff deal with transforming markdown to html.
+
+
+
+
