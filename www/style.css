@@ -39,7 +39,7 @@ body {
 
 nav {
 	margin: 0;
-	background: #1F1F1F; /*linear-gradient(#000000ff, #0000007f);*/
+	background: var(--dark);
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -135,19 +135,19 @@ body {
 	justify-content: center;
 	justify-content: center;
 	height: max(75vh, 32rem);
-	background-image: url("img/hashed/hero-c65d046d64c3e8b6.webp ");
+	background-image: url("img/hashed/hero-c65d046d64c3e8b6.webp");
 	/* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 	color: var(--light-fg);
 	-webkit-background-size: cover;
+	padding-bottom: 4rem;
 	/*
 	box-sizing: border-box;
 
 	width: 100%;
 	text-align: center;
-	padding-bottom: 4rem;
 	box-sizing: border-box;
 	background: linear-gradient(180deg, #00000000, #0000007f);
 
