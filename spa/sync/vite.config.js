@@ -6,6 +6,8 @@ import solidPlugin from 'vite-plugin-solid';
 export default defineConfig({
   plugins: [
 		solidPlugin(),
-	]
+	],
+	build: {
+		outDir: "../../www/sync"
+	}
 })
-
