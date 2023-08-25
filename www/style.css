@@ -143,15 +143,6 @@ body {
 	color: var(--light-fg);
 	-webkit-background-size: cover;
 	padding-bottom: 4rem;
-	/*
-	box-sizing: border-box;
-
-	width: 100%;
-	text-align: center;
-	box-sizing: border-box;
-	background: linear-gradient(180deg, #00000000, #0000007f);
-
-	*/
 }
 
 #hero div {
