@@ -21,7 +21,7 @@ self.addEventListener('activate', async event => {
 
 const whitelist = [
 	"/",
-	"/new.css",
+	"/style.css",
 
 	"/img/hashed/hero-42dfafe7792ebc52.webp",
 
