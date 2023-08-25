@@ -1,5 +1,9 @@
 ## Project layout
 
+Top level there's two makefiles, one for generating html from markdown, and one for hasing images.
+
+TODO: merge these
+
 ### static/
 
 Markdown. HTML, Original Images.

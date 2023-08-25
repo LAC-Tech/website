@@ -134,8 +134,8 @@ body {
 	align-items: center;
 	justify-content: center;
 	justify-content: center;
-	height: max(90vh, 32rem);
-	background-image: url("img/hashed/hero-42dfafe7792ebc52.webp");
+	height: max(75vh, 32rem);
+	background-image: url("img/hashed/hero-c65d046d64c3e8b6.webp ");
 	/* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
