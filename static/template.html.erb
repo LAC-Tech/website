@@ -15,7 +15,7 @@
 			        console.log("Service worker active");
 			      }
 	      	})
-	      	.catch(error => console.error(`Registration failed with `))
+	      	.catch(error => console.error(`Registration failed with ${error}`))
 	      }
 
 		  window.dataLayer = window.dataLayer || [];
@@ -28,7 +28,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta charset="UTF-8">
-		<meta name="description" content=>
+		<meta name="description" content=$description$>
 		<!-- Open Graph tags for sharing links -->
 		<meta 
 			property="og:image" 
@@ -40,13 +40,13 @@
 		/>
 		<meta 
 			property="og:description" 
-			content=""
+			content="$description$"
 		/>
 		<meta
 			property="og:type"
-			content=""
+			content="$type$"
 		/>
-		<title>Talks</title>
+		<title>$title$</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="manifest" href="manifest.json">
 		<link rel="apple-touch-icon" href="img/hashed/icon192-4295d06a36017a35.webp">
@@ -91,15 +91,7 @@
 			</span>
 		</nav>
 		<main>
-			<h1 id="talks">Talks</h1>
-<p><a href="https://youtu.be/NfzicLsgjl4">Biggest Technical Mistakes B2B
-Companies make.</a></p>
-<iframe width="420" height="315" src="https://youtu.be/NfzicLsgjl4">
-</iframe>
-<p><a href="https://youtu.be/kCmOfRcmkN0">Gettin’ Ziggy Wit It - Why I
-am convinced Zig is the C successor we’ve been waiting for</a></p>
-<iframe width="420" height="315" src="https://youtu.be/&gt;kCmOfRcmkN0">
-</iframe>
+        <%= body %>
 		</main>
 		<footer>
 			© 2023 Lewis Campbell Technologies Ltd.
