@@ -118,7 +118,7 @@ html,body {
 	background: var(--light-bg);
 }
 
-#benefits, .service, #about, #contact {
+nav, #benefits, .service, #about, #contact {
 	padding-left: var(--horizontal-padding);
 	padding-right: var(--horizontal-padding);
 }
@@ -279,9 +279,6 @@ blockquote {
 
 #benefits {
 	background: var(--light-bg);
-}
-
-#benefits div {
 	color: var(--dark);
 	padding-top: 2rem;
 	padding-bottom: 2rem;
