@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import fs from 'fs/promises';
+import fs from 'fs';
 import { marked } from 'marked';
 import matter from 'gray-matter';
 import render from './render.js'
@@ -13,7 +13,7 @@ if (!templatePath || !inputPath || !outputPath) {
 }
 
 // Read input Markdown file and extract front matter
-const inputContent = await fs.readFile(inputPath, 'utf-8')
+const inputContent = fs.readFileSync(inputPath, 'utf-8')
 const { data, content } = matter(inputContent)
 
 const body = marked(content)
