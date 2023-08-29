@@ -6,11 +6,11 @@ OUTPUT_FILES = $(patsubst $(INPUT_DIR)/%.md, $(OUTPUT_DIR)/%.html, $(wildcard $(
 
 all: $(OUTPUT_FILES)
 
-$(OUTPUT_DIR)/index.html: $(INPUT_DIR)/landing.html
-	pandoc -f html -t html+raw_html --metadata title="Lewis Campbell Technologies" --template=$(INPUT_DIR)/template.html -o $@ $<
+$(OUTPUT_DIR)/index.html: $(INPUT_DIR)/landing.json $(INPUT_DIR)/landing.html 
+	scripts/build_landing.js $(INPUT_DIR)/template.html.ejs $^ $@
 
 $(OUTPUT_DIR)/%.html: $(INPUT_DIR)/%.md
-	pandoc -f markdown+smart -t html --template=$(INPUT_DIR)/template.html -o $@ $<
+	scripts/build.js $(INPUT_DIR)/template.html.ejs $^ $@
 
 .PHONY: all clean
 

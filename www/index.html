@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YVVNR2QNZ7">	</script>
+		<script>
+		  if ("serviceWorker" in navigator) {
+	      navigator.serviceWorker.register("/sw.js", {scope: "/",})
+	      	.then(registration => {
+	      		if (registration.installing) {
+			        console.log("Service worker installing");
+			      } else if (registration.waiting) {
+			        console.log("Service worker installed");
+			      } else if (registration.active) {
+			        console.log("Service worker active");
+			      }
+	      	})
+	      	.catch(error => console.error(`Registration failed with ${error}`))
+	      }
+
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-YVVNR2QNZ7');
+		</script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta charset="UTF-8">
+		<meta name="description" content=$description$>
+		<!-- Open Graph tags for sharing links -->
+		<meta 
+			property="og:image" 
+			content="https://lewiscampbell.tech/img/LC-icon-whitebackground02-01.png"
+		/>
+		<meta 
+			property="og:title" 
+			content="Lewis Campbell Technologies"
+		/>
+		<meta 
+			property="og:description" 
+			content="$description$"
+		/>
+		<meta
+			property="og:type"
+			content="$type$"
+		/>
+		<title>Lewis Campbell Technologies</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="manifest" href="manifest.json">
+		<link rel="apple-touch-icon" href="img/hashed/icon192-4295d06a36017a35.webp">
+
+		<link rel="shortcut icon" type="image/png" href="img/hashed/icon32-a2fbcf30da694fcf.webp"/>
+		<meta name="theme-color" content="#80D4FF"/>
+	</head>
+
+	<body>
+		<nav>
+			<a href="/" id="home" aria-label="Home Page">
+				<img
+					src="img/hashed/icon46-112e6420dd915aad.webp"
+					alt="Lewis Campbell Technologies Logo">
+				</img>
+			</a>
+			<span id="links">
+				<a
+					href="https://twitter.com/LewisCTech"
+					aria-label="Twitter"
+				>
+					<img src="img/tabler-brand-twitter.svg" alt="Twitter Logo">
+				</a>
+				<a 
+					href="https://www.linkedin.com/in/lewisandrewcampbell"
+					aria-label="LinkedIn"
+				>
+					<img src="img/tabler-brand-linkedin.svg" alt="LinkedIn Logo">
+				</a>
+				<a
+					href=https://www.youtube.com/@LewisCampbellTech
+					aria-label="YouTube"
+				>
+					<img src="img/tabler-brand-youtube.svg" alt="YouTube Logo">
+				</a>
+				<a
+					href="https://github.com/LAC-Tech"
+					aria-label="GitHub"
+				>
+					<img src="img/tabler-brand-github.svg" alt="GitHub Logo">
+				</a>
+			</span>
+		</nav>
+		<main>
+        <div id="hero">
+	<h1>Software at the <span>edge</span> of the supply chain.</h1>
+	<div>
+		<a id="cta" href="#contact">Get in touch</a>
+		<a id="scroll-prompt" href="#benefits">Find out more ▼</a>
+	</div>
+</div>
+
+<div id="benefits">
+	<div>
+		<section>
+			<h2>🛠️ Pragmatic Solutions</h2>
+			<p>I'm not here to push a specific tech stack or vendor.</p>
+			<p>Get realistic solutions to solve the problem as simply as we can.</p>
+		</section>
+
+		<section>
+			<h2>💪 Supply Chain Strength</h2>
+			<p>Low-tech users? Field deployments? No network? No problem.</p>
+			<p>When standard solutions fall short, I step up.</p>
+		</section>
+
+		<section>
+			<h2>🤝 Collaborative Approach</h2>
+			<p>Technology is only part of the picture.</p>
+			<p>Collaboration across departments is the key to success.</p>
+		</section>
+	</div>
+</div>
+
+<div id="services">
+	<div class="service">
+		<img src="img/tabler-code.svg" alt="</>">
+		<section>
+			<h2>Software Development</h2>
+			<ul>
+				<li>Offline and sync strategies.</li>
+				<li>Data modelling in relational, document and key value stores.</li>
+				<li>Experienced in backend, frontend and desktop.</li>
+			</ul>
+		</section>
+	</div>
+
+	<div class="service">
+		<img src="img/tabler-report-analytics.svg" alt="clipboard with bar chart">
+		<section>
+			<h2>Consulting</h2>
+			<ul>
+				<li>Full technical assessment of existing solutions.</li>
+				<li>Expert advice on remote and low-connectivity deployments.</li>
+			</ul>
+		</section>
+	</div>
+
+	<div class="service">
+		<img src="img/tabler-tie.svg" alt="necktie">
+		<section>
+			<h2>Technical Leadership</h2>
+			<ul>
+				<li>Track record delivering commercially critical projects.</li>
+				<li>Experienced in leading remote teams.</li>
+				<li>Pro-active mentoring of juniors.</li>
+			</ul>
+		</section>
+	</div>
+</div>
+
+<div id="about">
+	<h1>About Me</h1>
+	<div>
+		<section>	
+			<p>I've been a freelance consultant since 2020, after a career developing software for industries such as airport services, agriculture. and supply chain management. </p>
+
+			<p>I live in a small village on the west coast with my wife and daughter, enjoying life between the mountains and the pacific.</p>
+		</section>
+		<img alt="Me sitting on my office chair with blue tie, in 2022" src="/img/me_2022.webp">
+	</div>
+</div>
+
+<div id="test">
+	<h1>Previous Clients</h1>
+	<div id="testimonials">
+		<section>
+			<h2><a href="https://www.linkedin.com/in/marktooheylawyer/">Mark Toohey</a></h2>
+			<span>Executive Director @ Aglive Group Limited</span>
+
+			<img alt="Mark Toohey" src="/img/mark-toohey.webp">
+
+			<blockquote>
+				<p>&#10077 Lewis is very willing and responsive co-worker. He has great experience in AgTech projects and is always keen to tackle new tasks - even the challenging ones. We were very impressed with his willingness to mentor and train junior staff and he showed great initiative in doing this important task. Lewis would make a good addition to any team.&#10078</p>
+			</blockquote>
+		</section>
+
+		<section>
+			<h2><a href="https://www.linkedin.com/in/michaveen/">Micha Veen</a></h2>
+			<span>MD &amp; Founder @ Unique Excellence</span>
+
+			<img alt="Micha Veen" src="/img/micha-veen.webp">
+
+			<blockquote>
+				<p>&#10077 Lewis is a pragmatic IT professional that is very easy to work with. We conducted a business and technical solution diagnostic for the Papua New Guinea Health Product Supply Chain and assisted to understand the current technical gaps and potential practical tech-solutions that we could introduce in a tech-constricted country.</p>
+
+				<p>His collaborative approach and work ethics is immaculate and created a very easy work environment. He goes out of his way when you ask for some help and guidance.</p>
+
+				<p>Lewis, thanks for your support and insights, as you made it very easy for us to create a operational, supply chain and aligned technical roadmap for the PNG project, allowing us to get to the next stage of this exciting supply chain management project.&#10078</p>
+			</blockquote>
+		</section>
+
+		<section>
+			<h2><a href="https://www.linkedin.com/in/bramford-horton-a7381938/">Bramford Horton</a></h2>
+			<span>Director @ Derp Technologies</span>
+
+			<img alt="Bramford Horton" src="/img/bramford-horton.webp">
+
+			<blockquote>
+				<p>&#10077 Lewis works with Derp Technologies as a Frontend Web Development Consultant. Throughout our time working together, Lewis has produced quality software and solutions to meet the Web UI requirements of our clients and their end-users. Lewis communicates clearly and works diligently to deliver great results.&#10078</p>
+			</blockquote>
+		</section>
+	</div>
+</div>
+
+<div id="contact">
+	<h1>Find out how I can help</h1>
+	<address>
+		<span class="social">
+			
+			<img src="img/tabler-mail.svg" alt="mail">
+			<a href="mailto:info@lewiscampbell.tech">info@lewiscampbell.tech</a>
+		</span>
+	</address>
+</div>
+</div>
+
+		</main>
+		<footer>
+			© 2023 Lewis Campbell Technologies Ltd.
+		</footer>
+	</body>
+</html>
