@@ -1,23 +1,17 @@
 #!/usr/bin/env node
+
 import fs from 'fs/promises';
 import { marked } from 'marked';
 import matter from 'gray-matter';
 import ejs from 'ejs';
 
 // Parse command line arguments
-const args = process.argv.slice(2);
-const templateIndex = args.indexOf('--template');
-const inputIndex = args.indexOf('--input');
-const outputIndex = args.indexOf('--output');
+const [templateFilePath, inputFilePath, outputFilePath] = process.argv.slice(2);
 
-if (templateIndex === -1 || inputIndex === -1 || outputIndex === -1) {
-  console.error('Usage: ./my_script.mjs --template a.html --input b.md --output c.html');
+if (!templateFilePath || !inputFilePath || !outputFilePath) {
+  console.error('Usage: ./my_script.mjs template source target');
   process.exit(1);
 }
-
-const templateFilePath = args[templateIndex + 1];
-const inputFilePath = args[inputIndex + 1];
-const outputFilePath = args[outputIndex + 1];
 
 // Read template file
 const templateContent = await fs.readFile(templateFilePath, 'utf-8');
@@ -39,4 +33,3 @@ const renderedTemplate = ejs.render(templateContent, {
 await fs.writeFile(outputFilePath, renderedTemplate, 'utf-8');
 
 console.log(`File '${outputFilePath}' generated successfully.`);
-
