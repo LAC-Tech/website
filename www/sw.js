@@ -23,7 +23,7 @@ const whitelist = [
 	"/",
 	"/style.css",
 
-	"/img/hashed/hero-c65d046d64c3e8b6.webp",
+	"/img/hashed/hero-71e9e86de8c6e29f.webp",
 
 	"/img/hashed/icon32-a2fbcf30da694fcf.webp",
 	"/img/hashed/icon46-112e6420dd915aad.webp",

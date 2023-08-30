@@ -5,7 +5,7 @@
 	--solid-light-bg: #efefef;
   --dark: #222;
   --border-radius: 0.5rem;
-  --shadow: #222;
+  --shadow: #333;
   --horizontal-padding: max(5vh, calc(50% - 33rem));
   --header-padding:  2.5rem;
   --primary-bg: linear-gradient(
@@ -131,7 +131,7 @@ body {
 	flex-direction: column;  
 	justify-content: center;
 	height: calc(100vh - var(--nav-height));
-	background-image: url("img/hashed/hero-c65d046d64c3e8b6.webp");
+	background-image: url("img/hashed/hero-71e9e86de8c6e29f.webp");
 	/* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -197,7 +197,7 @@ body {
 #hero p {
 	max-width: 40rem;
 	font-size: 125%;
-	background: #000000af;
+	background: #0000007f;
 }
 
 #about {

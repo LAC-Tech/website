@@ -1,2 +1,3 @@
-browser-sync www -w --no-notify
-#ls input/* | entr -c make -B
+browser-sync www -w --no-notify 
+
+#ls static/* | entry -c make -j
