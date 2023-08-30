@@ -28,7 +28,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta charset="UTF-8">
-		<meta name="description" content=$description$>
+		<meta name="description" content="<%= description %>">
 		<!-- Open Graph tags for sharing links -->
 		<meta 
 			property="og:image" 
@@ -36,15 +36,15 @@
 		/>
 		<meta 
 			property="og:title" 
-			content="Lewis Campbell Technologies"
+			content="<%= type %>"
 		/>
 		<meta 
 			property="og:description" 
-			content="$description$"
+			content="<%=description %>"
 		/>
 		<meta
 			property="og:type"
-			content="$type$"
+			content="<%= type %>"
 		/>
 		<title><%= title %></title>
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -66,39 +66,46 @@
 			<span id="links">
 				<a href="/talks.html">Talks</a>
 				<a href="/projects.html">Projects</a>
+				<a href="/contact.html">Contact</a>
 			</span>
 		</nav>
 		<main>
 			<%- body %>
 		</main>
 		<footer>
-			<span>
+			<span id="socials">
 				<a
 					href="https://twitter.com/LewisCTech"
 					aria-label="Twitter"
 				>
 					<img src="img/tabler-brand-twitter.svg" alt="Twitter Logo">
+					Twitter
 				</a>
 				<a 
 					href="https://www.linkedin.com/in/lewisandrewcampbell"
 					aria-label="LinkedIn"
 				>
 					<img src="img/tabler-brand-linkedin.svg" alt="LinkedIn Logo">
+					LinkedIn
 				</a>
 				<a
 					href=https://www.youtube.com/@LewisCampbellTech
 					aria-label="YouTube"
 				>
 					<img src="img/tabler-brand-youtube.svg" alt="YouTube Logo">
+					YouTube
 				</a>
 				<a
 					href="https://github.com/LAC-Tech"
 					aria-label="GitHub"
 				>
 					<img src="img/tabler-brand-github.svg" alt="GitHub Logo">
+					GitHub
 				</a>
 			</span>
-			© 2023 Lewis Campbell Technologies Ltd.
+			<span id="copyright">
+				© 2023 Lewis Campbell Technologies Ltd.
+			</span>
 		</footer>
 	</body>
 </html>

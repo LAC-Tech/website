@@ -1,5 +1,7 @@
 ---
 title: Projects
+type: website
+description: Projects by Lewis Campbell
 ---
 
 # Projects

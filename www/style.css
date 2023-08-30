@@ -5,7 +5,7 @@
 	--solid-light-bg: #efefef;
   --dark: #222;
   --border-radius: 0.5rem;
-  --shadow: #333;
+  --shadow: #222;
   --horizontal-padding: max(5vh, calc(50% - 33rem));
   --header-padding:  2.5rem;
   --primary-bg: linear-gradient(
@@ -21,6 +21,7 @@
 		farthest-side at 100% 50%,
 		hsl(var(--hue), 100%, 25%),
 		hsl(var(--hue), 100%, 5%));
+	--nav-height: 4rem;
 }
 
 html {
@@ -45,14 +46,13 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	overflow: hidden;
-	color: var(--dark);
+	color: var(--light-fg);
 	font-size: 125%;
-	height: fit-content;
-	padding: var(--outer-padding);
+	height: var(--nav-height);
 	border-bottom: 1px;
 }
 
-#socials {
+#links {
 	justify-content: center;
 	display: flex;
 	flex-direction: row;
@@ -60,15 +60,12 @@ nav {
 	justify-items: center;
 }
 
-span#links {}
-
 #links img {
 	height: 32px;
 	width: 32px;
 }
 
 #links a {
-	filter: invert(100%);
 	padding-left: 0.75rem;
 }
 
@@ -118,7 +115,8 @@ html,body {
 	background: var(--light-bg);
 }
 
-nav, #benefits, .service, #about, #contact {
+/* TODO: this should just be all elements under main, but .service ruins it */
+nav, #benefits, .service, #about, #contact, #hero {
 	padding-left: var(--horizontal-padding);
 	padding-right: var(--horizontal-padding);
 }
@@ -131,10 +129,8 @@ body {
 #hero {
 	display: flex;
 	flex-direction: column;  
-	align-items: center;
 	justify-content: center;
-	justify-content: center;
-	height: max(75vh, 32rem);
+	height: calc(100vh - var(--nav-height));
 	background-image: url("img/hashed/hero-c65d046d64c3e8b6.webp");
 	/* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -145,10 +141,10 @@ body {
 	padding-bottom: 4rem;
 }
 
-#hero div {
+#buttons {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: start;
 }
 
 #hero a {
@@ -164,7 +160,7 @@ body {
 	color: var(--light-fg);
 	text-align: center;
 	margin: 1.25rem;
-	margin-bottom: 0rem;
+	margin-left: 0rem;
 	width: 12.5rem;
 }
 
@@ -180,14 +176,17 @@ body {
 #hero h1 {
 	padding: 0;
 	text-decoration: none;
+	text-align: left;
+	font-size: 5vh;
+	line-height: normal;
 }
 
 #hero h1, #hero p {
   text-shadow: 
-		2px	0	0 var(--shadow),
-		0 -2px 0 var(--shadow),
-		0 2px 0 var(--shadow),
-		-2px 0 0 var(--shadow);
+		3px	0	0 var(--shadow),
+		0 -3px 0 var(--shadow),
+		0 3px 0 var(--shadow),
+		-3px 0 0 var(--shadow);
 }
 
 #hero h1 span {
@@ -198,6 +197,7 @@ body {
 #hero p {
 	max-width: 40rem;
 	font-size: 125%;
+	background: #000000af;
 }
 
 #about {
@@ -409,8 +409,31 @@ address a {
 	filter: invert(95%);
 }
 
+
 footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	text-align: center;
 	font-style: italic;
+}
+
+#socials {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 32rem;
+	padding: 1rem;
+}
+
+#socials a {
+	height: 6.4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1.6rem;
+}
+
+#copyright {
 	padding: 2rem;
 }

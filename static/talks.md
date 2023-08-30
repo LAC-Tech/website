@@ -1,5 +1,7 @@
 ---
 title: Talks
+type: website
+description: Talks by Lewis Campbell
 ---
 
 # Talks
