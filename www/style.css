@@ -22,6 +22,7 @@
 		hsl(var(--hue), 100%, 25%),
 		hsl(var(--hue), 100%, 5%));
 	--nav-height: 4rem;
+	--footer-height: 20rem;
 }
 
 html {
@@ -76,6 +77,11 @@ nav a {
 
 nav a:hover {
 	text-decoration: underline;
+}
+
+main {
+	min-height: calc(100vh - var(--nav-height) - var(--footer-height));
+
 }
 
 h1 {
@@ -416,6 +422,7 @@ footer {
 	align-items: center;
 	text-align: center;
 	font-style: italic;
+	height: var(--footer-height);
 }
 
 #socials {
@@ -427,7 +434,6 @@ footer {
 }
 
 #socials a {
-	height: 6.4rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
