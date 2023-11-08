@@ -2,18 +2,18 @@
 	"name": "Lewis Campbell Technologies",
 	"icons": [
 		{
-			"src": "img/hashed/icon192-4295d06a36017a35.webp",
+			"src": "img/hashed/icon192-4295d06a36017a35.png",
 			"type": "image/png",
 			"sizes": "192x192",
 			"purpose": "any maskable"
 		},
 		{
-			"src": "img/hashed/icon144-e73a392738ea4d4b.webp",
+			"src": "img/hashed/icon144-e73a392738ea4d4b.png",
 			"type": "image/png",
 			"sizes": "144x144"
 		},
 		{
-			"src": "img/hashed/icon512-cd31b61c9fc843f4.webp",
+			"src": "img/hashed/icon512-cd31b61c9fc843f4.png",
 			"type": "image/png",
 			"sizes": "512x512"
 		}
