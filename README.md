@@ -2,6 +2,9 @@
 
 Top level there's two makefiles, one for generating html from markdown, and one for hasing images.
 
+Why am I hashing images? So if I modify them (ie, my icons), the service worker
+doesn't think it's the same thing
+
 TODO: merge these
 
 ### static/
@@ -12,7 +15,7 @@ Markdown. HTML, Original Images.
 
 Javascript code, dependencies and tooling. Each a
 
-#### Dynamic/Sync
+#### spa/sync
 
 Sync contains my implementations of CRDTs from the following papers:
 
@@ -29,13 +32,11 @@ What's going to be served to the browser and deployed. Can contain things that d
 
 Front page is a simple static site, no js except google tag manager and a service worker.
 
-
 ## Running
 
-TODO:
-- makefile to build static assets
-- vite for dynamic web pages
-- devserve script to browse site
+make
+make -f image.mk
+./devserve.sh
 
 ## FAQ
 
@@ -44,7 +45,3 @@ TODO:
 I'm no longer a frontend javascript true believer. Not willing to give up solid.js for SPAs, but want to limit the blast radius of frontend tooling.
 
 Let Vite deal with javascript, and other stuff deal with transforming markdown to html.
-
-
-
-
