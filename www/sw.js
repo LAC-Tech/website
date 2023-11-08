@@ -1,4 +1,5 @@
-const cacheName = '8354a47c-fe3a-4282-827b-be5a896d1f0c'
+// change this when whitelist changes
+const cacheName = '9bb36ef3-c457-4b14-b09f-0894db197ace'
 
 self.addEventListener('install', event => {
 	event.waitUntil(
@@ -90,7 +91,6 @@ const tryNetwork = async request => {
 
 const tryCache = async request => {
 	const cache = await caches.open(cacheName)
-
 
 	return cache.match(request.url)
 }
