@@ -36,9 +36,15 @@ const whitelist = [
 	"/img/tabler-brand-youtube.svg",
 	"/img/tabler-brand-github.svg",
 	"/img/tabler-code.svg",
+	"/img/tabler-mail.svg",
 	"/img/tabler-report-analytics.svg",
 	"/img/tabler-tie.svg",
 
+	"/img/me_2022.webp",
+	"/img/mark-toohey.webp",
+	"/img/micha-veen.webp",
+	"/img/bramford-horton.webp",
+	
 	"/manifest.json"
 ] 
 
