@@ -2,6 +2,7 @@
 title: Talks
 type: website
 description: Talks by Lewis Campbell
+image: null
 ---
 
 # Talks

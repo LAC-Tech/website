@@ -2,6 +2,7 @@
 title: Projects
 type: website
 description: Projects by Lewis Campbell
+image: null
 ---
 
 # Projects
