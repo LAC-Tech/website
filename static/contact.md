@@ -1,7 +1,7 @@
 ---
 title: Contact
 type: website
-description: Get in touch with Lewis Campbell Technologies for your network-resilient software needs.
+description: Contact Lewis Campbell
 image: null
 ---
 
