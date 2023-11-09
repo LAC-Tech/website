@@ -1,9 +1,10 @@
 :root {
   --hue: 200;
-  --light-bg: radial-gradient(circle at center, white, #efefef);
+  --light-bg: lightgray;
 	--light-fg: white;
 	--solid-light-bg: #efefef;
-  --dark: #222;
+	--dark-bg: #6f6f6f;
+  --dark-fg: black;
   --border-radius: 0.5rem;
   --shadow: #333;
   --horizontal-padding: max(5vh, calc(50% - 33rem));
@@ -22,7 +23,7 @@
 		hsl(var(--hue), 100%, 25%),
 		hsl(var(--hue), 100%, 5%));
 	--nav-height: 4rem;
-	--footer-height: 20rem;
+	--footer-height: 10rem;
 }
 
 html {
@@ -34,24 +35,24 @@ img {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: Garamond, serif;
 	font-size: clamp(1rem, 0.9375rem + 0.3125vh, 1.5rem);
 	margin: 0;
-	color: var(--dark);
+	color: var(--dark-fg);
+	background: var(--light-bg);
 }
 
 nav {
 	margin: 0;
-	background: var(--dark);
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
 	overflow: hidden;
-	color: var(--light-fg);
 	font-size: 125%;
 	height: var(--nav-height);
 	border-bottom: 1px;
+	margin-bottom: 2rem;
 }
 
 #links {
@@ -72,8 +73,9 @@ nav {
 }
 
 nav a {
-	font-weight: bolder;
-	text-decoration: none;
+
+/*	font-weight: bolder;
+	text-decoration: none;*/
 }
 
 nav a:hover {
@@ -85,17 +87,9 @@ main {
 
 }
 
-h1 {
-	text-underline-offset: 1rem;
-	text-decoration: underline solid hsl(var(--hue), 100%, 40%) 0.1rem;
-	-webkit-text-decoration-line: underline;
-	-webkit-text-decoration-style: solid;
-	-webkit-text-decoration-color: hsl(var(--hue), 90%, 37.5%);
-	-webkit-text-decoration-thickness: 0.1rem;
-	margin: 0;
-	text-align: center;
-	padding: 2rem;
-	line-height: 3.2rem;
+h1, h2, h3 {
+	font-variant: small-caps;
+	text-transform: capitalize;
 }
 
 a {
@@ -119,7 +113,6 @@ a {
 
 html,body {
 	height: 100%;
-	background: var(--light-bg);
 }
 
 /* TODO: this should just be all elements under main, but .service ruins it */
@@ -136,82 +129,6 @@ body > * {
 body {
 	background: var(--light-bg);
 	position: relative;
-}
-
-#hero {
-	display: flex;
-	flex-direction: column;  
-	justify-content: center;
-	height: calc(100vh - var(--nav-height));
-	background-image: url("img/hashed/hero-71e9e86de8c6e29f.webp");
-	/* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-	color: var(--light-fg);
-	-webkit-background-size: cover;
-	padding-bottom: 4rem;
-}
-
-#buttons {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: start;
-}
-
-#hero a {
-	text-decoration: none;
-	border-radius: var(--border-radius);
-	padding: 1.5rem;
-	font-weight: bold;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: 125%;
-	color: var(--light-fg);
-	text-align: center;
-	margin: 1.25rem;
-	margin-left: 0rem;
-	width: 12.5rem;
-}
-
-#cta {
-	background: hsl(var(--hue), 100%, 35%);
-}
-
-#scroll-prompt {
-	background: #000000cf;
-
-}
-
-#hero h1 {
-	padding: 0;
-	text-decoration: none;
-	text-align: left;
-	font-size: 5vh;
-	line-height: normal;
-}
-
-#hero h1, #hero p {
-  text-shadow: 
-		3px	0	0 var(--shadow),
-		0 -3px 0 var(--shadow),
-		0 3px 0 var(--shadow),
-		-3px 0 0 var(--shadow);
-}
-
-#hero h1 span {
-	white-space: nowrap;
-	color: hsl(var(--hue), 100%, 55%);
-}
-
-#hero p {
-	max-width: 40rem;
-	font-size: 125%;
-	background: #0000007f;
-	padding: 1rem;
-	border-radius: var(--border-radius);
 }
 
 #about {
@@ -291,139 +208,6 @@ blockquote {
 	width: 90%;
 }
 
-#benefits {
-	background: var(--light-bg);
-	color: var(--dark);
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	display: flex;
-	justify-content: center;
-	flex-flow: wrap;
-}
-
-#benefits img {
-	height: 64px;
-	width: 64px;
-}
-
-#benefits section {
-	max-width: 20rem;
-	padding: 1.25rem;
-	padding-top: 0;
-	padding-bottom: 0;
-	margin-top: 1rem;
-	margin-bottom: 1rem;	
-	text-align: center;
-	font-size: 100%;
-}
-
-#benefits section h2 {
-	font-size: 150%;
-}
-
-#services {
-	display: flex;
-	flex-direction: column;
-	background: var(--light-bg);
-}
-
-.service {
-	display: flex;
-	flex-flow: wrap;
-	justify-content: space-around;
-	align-items: center;
-	background: var(--primary-bg);
-	color: var(--light-fg);
-	padding-top: min(5rem, 5vw);
-	padding-bottom: min(5rem, 5vw);
-}
-
-.service:nth-child(2) {
-	background: var(--light-bg);
-	color: var(--dark);
-	flex-direction: row-reverse;
-}
-
-.service:nth-child(2) img {
-	filter: invert(0);
-}
-
-.service img {
-	height: 127px;
-	width: 127px;
-	filter: invert(0.95);
-	align-self: center;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-}
-
-.service section {
-	max-width: 32rem;
-}
-
-.service section h2 {
-	margin: 0;
-}
-
-#contact {
-	background: var(--primary-bg-radial);
-	color: var(--light-fg);
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	align-content: center;
-	align-items: center;
-	padding-bottom: 2.5rem;
-	text-align: center;
-	height: 90vh;
-}
-
-#contact h1 {
-	text-decoration: none;
-}
-
-address {
-	color: black;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	align-self: start;
-	justify-self: start;
-	font-size: 137.5%;
-}
-
-address a {
-	font-weight: bold;
-	 color: hsl(var(--hue), 100%, 80%); 
-}
-
-.social {
-	display: flex;
-	flex-direction: column;
-	
-	color: var(--light-fg);
-	align-items: center;
-	border: 0.125rem solid;
-	border-radius: var(--border-radius);
-	padding: 1rem;
-	padding-top: 2.5rem;
-	padding-bottom: 2.5rem;
-	width: 100%;
-}
-
-.social h2 {
-	font-size: 125%;
-}
-
-.social img {
-	height: 50px;
-	width: 50px;
-	padding-bottom: 1rem;
-	filter: invert(95%);
-}
-
-
 footer {
 	display: flex;
 	flex-direction: column;
@@ -431,21 +215,6 @@ footer {
 	text-align: center;
 	font-style: italic;
 	height: var(--footer-height);
-}
-
-#socials {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	max-width: 32rem;
-	padding: 1rem;
-}
-
-#socials a {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	padding: 1.6rem;
 }
 
 #copyright {

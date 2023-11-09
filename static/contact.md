@@ -5,6 +5,18 @@ description: Get in touch with Lewis Campbell Technologies for your network-resi
 image: null
 ---
 
-# Get in touch
+# Contact
 
-Email me at [info@lewiscampbell.tech](mailto:info@lewiscampbell.tech)
+## Email
+
+[info@lewiscampbell.tech](mailto:info@lewiscampbell.tech)
+
+## Social Media
+
+[Twitter / X](https://twitter.com/LewisCTech)
+
+[YouTube](https://www.youtube.com/@LewisCampbellTech)
+
+[LinkedIn](https://www.linkedin.com/in/lewisandrewcampbell)
+
+[GitHub](https://github.com/LAC-Tech")
