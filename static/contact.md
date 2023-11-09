@@ -13,7 +13,7 @@ image: null
 
 ## Social Media
 
-[Twitter / X](https://twitter.com/LewisCTech)
+[X / Twitter](https://twitter.com/LewisCTech)
 
 [YouTube](https://www.youtube.com/@LewisCampbellTech)
 

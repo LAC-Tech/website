@@ -1,4 +1,4 @@
-// change this when whitelist changes
+// In-case the cache ever gets filled with rubbish in prod, this can be changed
 const cacheName = '9bb36ef3-c457-4b14-b09f-0894db197ace'
 
 self.addEventListener('install', event => {
@@ -7,6 +7,7 @@ self.addEventListener('install', event => {
 	)
 })
 
+// Delete everything not in the white list
 self.addEventListener('activate', async event => {
 	self.skipWaiting()
 
@@ -20,6 +21,19 @@ self.addEventListener('activate', async event => {
   await Promise.all(deletionPromises)
 })
 
+// Remove old caches
+self.addEventListener('activate', async event => {
+    self.skipWaiting();
+
+    const cacheNames = await caches.keys();
+
+    const deletionPromises = cacheNames
+        .filter(n => n !== cacheName)
+        .map(n => caches.delete(n));
+
+    await Promise.all(deletionPromises);
+});
+
 const whitelist = [
 	"/",
 	"/style.css",
@@ -32,15 +46,6 @@ const whitelist = [
 	"/img/hashed/icon192-4295d06a36017a35.webp",
 	"/img/hashed/icon512-cd31b61c9fc843f4.webp",
 
-	"/img/tabler-brand-twitter.svg",
-	"/img/tabler-brand-linkedin.svg",
-	"/img/tabler-brand-youtube.svg",
-	"/img/tabler-brand-github.svg",
-	"/img/tabler-code.svg",
-	"/img/tabler-mail.svg",
-	"/img/tabler-report-analytics.svg",
-	"/img/tabler-tie.svg",
-
 	"/img/me_2022.webp",
 	"/img/mark-toohey.webp",
 	"/img/micha-veen.webp",
@@ -48,6 +53,12 @@ const whitelist = [
 	
 	"/manifest.json"
 ] 
+
+/*
+	Assumptions:
+	- If an image has the same filename, it's the same image
+	- html documents and CSS will change content but have the same name
+*/
 
 self.addEventListener('fetch', event => {
 	// Check if this is a navigation request
@@ -85,6 +96,7 @@ const tryNetwork = async request => {
 	if (whitelist.includes(url.pathname)) {
 		cache.put(request, response.clone())
 	}
+
 
 	return response;
 }
