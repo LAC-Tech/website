@@ -6,6 +6,7 @@ GEM
     redcarpet (3.6.0)
 
 PLATFORMS
+  x86_64-linux
   x86_64-linux-musl
 
 DEPENDENCIES
