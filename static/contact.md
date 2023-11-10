@@ -15,8 +15,6 @@ image: null
 
 [X / Twitter](https://twitter.com/LewisCTech)
 
-[YouTube](https://www.youtube.com/@LewisCampbellTech)
-
 [LinkedIn](https://www.linkedin.com/in/lewisandrewcampbell)
 
-[GitHub](https://github.com/LAC-Tech")
+[YouTube](https://www.youtube.com/@LewisCampbellTech)
