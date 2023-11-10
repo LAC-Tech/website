@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    front_matter_parser (1.0.1)
+    rake (13.1.0)
+    redcarpet (3.6.0)
+
+PLATFORMS
+  x86_64-linux-musl
+
+DEPENDENCIES
+  front_matter_parser
+  rake
+  redcarpet
+
+BUNDLED WITH
+   2.4.10

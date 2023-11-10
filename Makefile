@@ -17,9 +17,6 @@ all: $(HTML_FILES) $(WEBP_FILES) $(PNG_FILES)
 $(OUTPUT_DIR)/%.html: $(TEMPLATE_FILE) $(INPUT_DIR)/%.md
 	scripts/build.js $^ $@
 
-$(OUTPUT_DIR)/blog/%.html: $(TEMPLATE_FILE) $(INPUT_DIR)/blog/%.md
-	scripts/build.js $^ $@
-
 $(IMG_OUTPUT_DIR)/%.webp: $(IMG_INPUT_DIR)/% | $(IMG_OUTPUT_DIR)
 	convert $< $(IMG_OUTPUT_DIR)/$(notdir $(basename $*))-$(shell xxhsum $< | cut -d ' ' -f1).webp
 
