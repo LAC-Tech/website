@@ -5,8 +5,6 @@ description: Contact Lewis Campbell
 image: null
 ---
 
-# Contact
-
 ## Email
 
 [info@lewiscampbell.tech](mailto:info@lewiscampbell.tech)

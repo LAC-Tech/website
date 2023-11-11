@@ -1,0 +1,10 @@
+<% for (let link of links) { %>
+  <div class="blog-entry">
+    <a href="<%= link.url %>" >
+      <%= link.title %>
+    </a>
+    <span>
+      <%= link.date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) %>
+    </span>
+  </div>
+<% } %>

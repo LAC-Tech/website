@@ -7,5 +7,5 @@ www/dev-dist/
 www/img/hashed/
 www/contact.html
 www/index.html
-www/projects.html
-www/talks.html
+www/blog.html
+www/blog/*

@@ -5,8 +5,6 @@ description: Welcome to Lewis Campbell Tech
 image: null
 ---
 
-# Lewis Campbell Tech
-
 Welcome to my web site.
 
 I'm a solo software consultant - mainly working in supply chain traceability.
