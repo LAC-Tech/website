@@ -89,6 +89,13 @@ body > * {
 	padding-right: var(--horizontal-padding);
 }
 
+.blog-entry {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
 footer {
 	display: flex;
 	flex-direction: column;

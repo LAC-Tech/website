@@ -1,10 +1,12 @@
 import path from 'node:path'
-import fs from 'node:fs/promises';
+import fs from 'node:fs/promises'
 
 import ejs from 'ejs'
 import { globSync } from 'glob'
 
 import phash from 'sharp-phash'
+import { marked } from 'marked'
+import matter from 'gray-matter'
 
 /* Command Line Arguments ****************************************************/
 const command = process.argv[2]
@@ -46,7 +48,10 @@ const blogMdToHtmlTasks = globSync('static/blog/*.md').map(src => {
 
 const blogListingTask = {
 	dest: "www/blog.html",
-	links: blogMdToHtmlTasks.map(({dest, title, date}) => ({dest, title, date}))
+	links: blogMdToHtmlTasks.map(({dest, title, date}) => {
+		const url = dest.replace('www/', '/')
+		return {url, title, date}
+	})
 }
 
 const imgTasks = await Promise.all(globSync('static/img/*').map(src => {
@@ -56,7 +61,7 @@ const imgTasks = await Promise.all(globSync('static/img/*').map(src => {
 		const hexHash = parseInt(hash, 2).toString(16)
 
 		const dest = path.format({
-			dir: p.dir.replace(/^static/, 'www/hashed'),
+			dir: p.dir.replace(/^static/, 'www') + '/hashed',
 			base: `${p.name}-${hexHash}${p.ext}`
 		})
 
@@ -70,40 +75,76 @@ if (command === 'clean') {
 	console.log("Cleaning...")
 
 	for (const tasks of [
-		mdToHtmlTasks, 
+		mdToHtmlTasks,
 		blogMdToHtmlTasks,
-		[blogListingTask], 
+		[blogListingTask],
 		imgTasks
 	]) {
 		const outputPaths = tasks.map(({dest}) => dest)
 		console.log(outputPaths)
-		await outputPaths.map(path => fs.rm(path))
+		await Promise.all(outputPaths.map(path => fs.rm(path)))
 	}
 
 	console.log('Done.')
 	process.exit()
 }
 
-const renderPage = opts => {
-	const {
-		templatePath,
-		outputPath,
-		data,
-		body
-	} = opts
+/* Rendering *****************************************************************/
 
-	ejs.renderFile(templatePath, {...data, body}, async (err, str) => {
+const render = filename => data => new Promise((resolve, reject) => {
+	ejs.renderFile(filename, data, async (err, str) => {
 		if (err) {
-			console.error('Error rendering template:', err)
-			process.exit(1)
+			reject(err)
+		} else {
+			resolve(str)
 		}
-
-		fs.writeFileSync(outputPath, str, 'utf-8');
 	})
-}
+})
+
+const renderPage = render('static/template.html.ejs')
+const renderBlogListings = render('static/blog_template.html.ejs')
 
 console.log('TASKS:')
 console.log(mdToHtmlTasks)
 console.log(blogMdToHtmlTasks)
 console.log(imgTasks)
 console.log(blogListingTask)
+
+if (command === 'build') {
+	console.log('Building...')
+
+	await Promise.all(mdToHtmlTasks.map(({src, dest}) => {
+		return fs.readFile(src, 'utf-8').then(inputContent => {
+			const { data, content } = matter(inputContent)
+
+			console.table(data)
+			return renderPage({...data, body: marked(content)})
+				.then(htmlStr => fs.writeFile(dest, htmlStr, 'utf-8'))
+		})
+	}))
+	console.log("Converted pages to html")
+
+	await Promise.all(blogMdToHtmlTasks.map(({src, dest}) => {
+		return fs.readFile(src, 'utf-8').then(inputContent => {
+			const { data, content } = matter(inputContent)
+			return renderPage({...data, body: marked(content)})
+				.then(htmlStr => fs.writeFile(dest, htmlStr, 'utf-8'))
+		})
+	}))
+	console.log("Converted blogs to html")
+
+	await renderPage({
+		title: 'Blog',
+		type: 'website',
+		description: "Lewis Campbell's Blog",
+		image: null,
+		body: await renderBlogListings(blogListingTask)
+	})
+	.then(htmlStr => fs.writeFile(blogListingTask.dest, htmlStr, 'utf-8'))
+	console.log("Generated new blog listing")
+
+	await Promise.all(imgTasks.map(({src, dest}) => fs.copyFile(src, dest)))
+	console.log("Hashing images")
+	
+	console.log('Done.')
+}
