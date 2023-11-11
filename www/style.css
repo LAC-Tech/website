@@ -71,6 +71,11 @@ a {
 	color: inherit;
 }
 
+/* Ensure all images fit on the page */
+img {
+	max-width: 100%;
+}
+
 #home {
 	display: flex;
 	height: 50px;
