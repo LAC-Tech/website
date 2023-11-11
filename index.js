@@ -19,14 +19,12 @@ const mdInputPaths = globSync('static/*.md')
 /** 
  * Tasks
  * 
- * These represent a unit of work
- * Tasks have a src path, a destination path, and optional metadata
+ * Tasks are an intermediate format that contain all the info to modify the FS
  */
 const mdToHtmlTasks = globSync('static/*.md').map(src => {
 	const dest = src.replace(/^static/, 'www').replace(/\.md$/, '.html')
 	return {src, dest}
 })
-
 
 const blogMdToHtmlTasks = globSync('static/blog/*.md').map(src => {
 	const p = path.parse(src)
@@ -46,7 +44,12 @@ const blogMdToHtmlTasks = globSync('static/blog/*.md').map(src => {
 	}
 })
 
-const outputImgTasks = await Promise.all(globSync('static/img/*').map(src => {
+const blogListingTask = {
+	dest: "www/blog.html",
+	links: blogMdToHtmlTasks.map(({dest, title, date}) => ({dest, title, date}))
+}
+
+const imgTasks = await Promise.all(globSync('static/img/*').map(src => {
 	const p = path.parse(src)
 
 	return fs.readFile(src).then(img => phash(img)).then(hash => {
@@ -66,8 +69,14 @@ const outputImgTasks = await Promise.all(globSync('static/img/*').map(src => {
 if (command === 'clean') {
 	console.log("Cleaning...")
 
-	for (const tasks of [mdToHtmlTasks, blogMdToHtmlTasks]) {
+	for (const tasks of [
+		mdToHtmlTasks, 
+		blogMdToHtmlTasks,
+		[blogListingTask], 
+		imgTasks
+	]) {
 		const outputPaths = tasks.map(({dest}) => dest)
+		console.log(outputPaths)
 		await outputPaths.map(path => fs.rm(path))
 	}
 
@@ -96,4 +105,5 @@ const renderPage = opts => {
 console.log('TASKS:')
 console.log(mdToHtmlTasks)
 console.log(blogMdToHtmlTasks)
-console.log(outputImgTasks)
+console.log(imgTasks)
+console.log(blogListingTask)
