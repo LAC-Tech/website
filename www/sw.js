@@ -20,26 +20,6 @@ self.addEventListener('activate', async event => {
     await Promise.all(deletionPromises);
 });
 
-const whitelist = [
-	"/",
-	"/style.css",
-
-	"/img/hashed/hero-71e9e86de8c6e29f.webp",
-
-	"/img/hashed/icon32-a2fbcf30da694fcf.webp",
-	"/img/hashed/icon46-112e6420dd915aad.webp",
-	"/img/hashed/icon144-e73a392738ea4d4b.webp",
-	"/img/hashed/icon192-4295d06a36017a35.webp",
-	"/img/hashed/icon512-cd31b61c9fc843f4.webp",
-
-	"/img/me_2022.webp",
-	"/img/mark-toohey.webp",
-	"/img/micha-veen.webp",
-	"/img/bramford-horton.webp",
-	
-	"/manifest.json"
-] 
-
 /*
 	Assumptions:
 	- If an image has the same filename, it's the same image
@@ -60,7 +40,8 @@ self.addEventListener('fetch', event => {
 		return event.respondWith(res);
 	} else if (
 		request.destination === 'document' || 
-		request.destination === 'style'
+		request.destination === 'style' ||
+		request.url.includes('manifest.json')
 	) {
 		// Network then cache
 		const res = tryNetwork(request)
@@ -77,16 +58,12 @@ const tryNetwork = async request => {
 		fetch(request.url)
 	])
 
-	const url = new URL(request.url)
-
 	cache.put(request, response.clone())
-
 
 	return response;
 }
 
 const tryCache = async request => {
 	const cache = await caches.open(cacheName)
-
 	return cache.match(request.url)
 }
