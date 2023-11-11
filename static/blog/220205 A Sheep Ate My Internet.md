@@ -7,7 +7,7 @@ image: https://lewiscampbell.tech/img/AngusCropped.jpg
 
 It was May, 2021. I was living on a farm in rural New Zealand (total ag-tech immersion). It was beautiful, even the internet was decent... until this scoundrel chewed through the cable connecting me to the satellite dish.
 
-![Large white ram looking up](/img/AngusCropped.jpg)
+![Large white ram looking up](/img/angus_cropped-4b7ba3a7df1b4c00.jpg)
 *[Angus the sheep](https://www.instagram.com/angus.the.sheep/), defending himself against accusations.*
 
 I was now offline.

@@ -4,7 +4,7 @@ dist/
 drafts/
 blogideas.txt
 www/dev-dist/
-www/img/hashed/
+www/img/*
 www/contact.html
 www/index.html
 www/blog.html

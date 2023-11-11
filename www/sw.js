@@ -1,24 +1,10 @@
 // In-case the cache ever gets filled with rubbish in prod, this can be changed
-const cacheName = '9bb36ef3-c457-4b14-b09f-0894db197ace'
+const cacheName = 'd44ece6c-bb0a-4dd9-9366-8205c5cfb2ff'
 
 self.addEventListener('install', event => {
 	event.waitUntil(
 		caches.open(cacheName)
 	)
-})
-
-// Delete everything not in the white list
-self.addEventListener('activate', async event => {
-	self.skipWaiting()
-
-  const cache = await caches.open(cacheName)
-  const cacheKeys = await cache.keys()
-
-  const deletionPromises = cacheKeys
-    .filter(cacheKey => !whitelist.includes(new URL(cacheKey.url).pathname))
-    .map(cacheKey => cache.delete(cacheKey))
-
-  await Promise.all(deletionPromises)
 })
 
 // Remove old caches
@@ -93,9 +79,7 @@ const tryNetwork = async request => {
 
 	const url = new URL(request.url)
 
-	if (whitelist.includes(url.pathname)) {
-		cache.put(request, response.clone())
-	}
+	cache.put(request, response.clone())
 
 
 	return response;

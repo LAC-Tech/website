@@ -61,7 +61,7 @@ const imgTasks = await Promise.all(globSync('static/img/*').map(src => {
 		const hexHash = parseInt(hash, 2).toString(16)
 
 		const dest = path.format({
-			dir: p.dir.replace(/^static/, 'www') + '/hashed',
+			dir: p.dir.replace(/^static/, 'www'),
 			base: `${p.name}-${hexHash}${p.ext}`
 		})
 
@@ -117,7 +117,6 @@ if (command === 'build') {
 		return fs.readFile(src, 'utf-8').then(inputContent => {
 			const { data, content } = matter(inputContent)
 
-			console.table(data)
 			return renderPage({...data, body: marked(content)})
 				.then(htmlStr => fs.writeFile(dest, htmlStr, 'utf-8'))
 		})

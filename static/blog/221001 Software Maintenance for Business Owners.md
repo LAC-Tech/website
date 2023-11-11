@@ -12,7 +12,7 @@ That's fine. I'm in charge of my bank account and I don't understand internation
 So, here's a car analogy.
 
 <div style="text-align: center;">
-	<img alt="Wrecked Vintage Car" src="/img/Wrecked Car.jpeg">
+	<img alt="Wrecked Vintage Car" src="/img/wrecked_car-8e77b06de79630.jpg">
 </div>
 
 Imagine your car runs fine, but it's having trouble starting. You apply the typical software maintenance strategy:

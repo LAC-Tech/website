@@ -3,8 +3,8 @@
     <a href="<%= link.url %>" >
       <%= link.title %>
     </a>
-    <span>
-      <%= link.date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) %>
+    <span class="blog-date">
+      <%= link.date.toLocaleDateString('en-NZ', { day: 'numeric', month: 'short', year: 'numeric' }) %>
     </span>
   </div>
 <% } %>
