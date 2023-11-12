@@ -1,5 +1,5 @@
 :root {
-  --bg: lightgray;
+  --bg: #ddd;
 	--fg: black;
   --horizontal-padding: max(2vh, calc(50% - 20rem));
   --header-padding:  2.5rem;
@@ -69,6 +69,10 @@ h1, h2, h3 {
 
 a {
 	color: inherit;
+}
+
+blockquote {
+	font-style: italic;
 }
 
 /* Ensure all images fit on the page */
