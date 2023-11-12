@@ -104,12 +104,6 @@ const render = filename => data => new Promise((resolve, reject) => {
 const renderPage = render('static/template.html.ejs')
 const renderBlogListings = render('static/blog_template.html.ejs')
 
-console.log('TASKS:')
-console.log(mdToHtmlTasks)
-console.log(blogMdToHtmlTasks)
-console.log(imgTasks)
-console.log(blogListingTask)
-
 if (command === 'build') {
 	console.log('Building...')
 
