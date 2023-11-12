@@ -1,6 +1,4 @@
 ---
-title: Software Maintenance for Business Owners
-type: website
 image: https://lewiscampbell.tech/img/Wrecked Car.jpeg
 description: Software maintenance defined in terms of cars
 ---

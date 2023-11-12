@@ -1,6 +1,4 @@
 ---
-title: 95% Programming
-type: article
 description: Static Analysis as a useful tool, not a moral imperative
 image: null
 ---

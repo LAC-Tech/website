@@ -1,6 +1,4 @@
 ---
-title: A Sheep Ate My Internet
-type: article
 description: The reality of rural internet for software development
 image: https://lewiscampbell.tech/img/AngusCropped.jpg
 ---

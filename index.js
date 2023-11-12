@@ -123,11 +123,16 @@ if (command === 'build') {
 	}))
 	console.log("Converted pages to html")
 
-	await Promise.all(blogMdToHtmlTasks.map(({src, dest}) => {
+	await Promise.all(blogMdToHtmlTasks.map(({src, dest, title}) => {
 		return fs.readFile(src, 'utf-8').then(inputContent => {
 			const { data, content } = matter(inputContent)
-			return renderPage({...data, body: marked(content)})
-				.then(htmlStr => fs.writeFile(dest, htmlStr, 'utf-8'))
+
+			return renderPage({
+				...data,
+				title, 
+				type: 'article', 
+				body: marked(content)
+			}).then(htmlStr => fs.writeFile(dest, htmlStr, 'utf-8'))
 		})
 	}))
 	console.log("Converted blogs to html")
