@@ -14,7 +14,7 @@ Real field or not, computing is young. The world's first computer science qualif
 
 And so for the most part, we have two reactions to the past of computing. Either we love the retro aesthetic; admiring the machines of an earlier age, and feeling a nostalgia for the tech of our youth. Or we sneer at it; looking down on people with primitive hardware who "didn't know what we know now". Almost never do we think that they might know what we have now forgotten.
 
-I've been watching an old British TV series - [The Computer Programme](https://www.youtube.com/watch?v=5dIcOXx3Exc&list=PLOtimvwAoYtnCtLiLspq_Gnng1XusYwPU). Made in 1982 and opening with Kraftwerk's *Computerwelt*, it's a fascinating look into the technology of the time. But what's most striking to me is peoples relationship and conception of computers. It's very information-centric - focusing on the input, processing, transmission of information. There's an episode on graphics, but for the most part this is relegated to the background. The display the servant of information, not the master of it.
+I've been watching an old British TV series - [The Computer Programme](https://www.youtube.com/watch?v=5dIcOXx3Exc&list=PLOtimvwAoYtnCtLiLspq_Gnng1XusYwPU). Made in 1982 and opening with Kraftwerk's *Computerwelt*, it's a fascinating look into the technology of the time. But what's most striking to me is peoples relationship and conception of computers. It's very information-centric - focusing on the input, processing, transmission of information. There's an episode on graphics, but for the most part this is relegated to the background. The graphical display is the servant of information, not the master of it.
 
 ![Phyllis Arandale at her computer](/img/phyillis1982-2a4d9d7d7296a800.png)
 
