@@ -1,22 +1,22 @@
-I don't think they do.
+The more I read of what supplychain says of blockchain, the less I think they understand it.
 
-First off, I will explain - as briefly as I can - the core of what blockchain is. There's blocks - which are just pieces of data. They are are linked together. If these blocks stay the same after they're linked, I will be able to verify all the links from one block to another - the chain. If any of the blocks are modified, the links - or the chain - will break.
+## The Core of Blockchain
 
-Think of a web page that has a link back to the previous page you were on. If that previous page changes, the link becomes invalid.
+First off, I will explain - as briefly as I can - the core of what blockchain is. There's blocks - which are just pieces of data. They are are linked together. If these blocks are not modified, deleted, or otherwise tampered with after they're linked, one can then verify every link from the first block to the last - hence 'chain'. If any of the blocks were to be altered after the fact, the link which pointed to it would not work. And so the chain would be broken.
 
-That's it. That's the heart of what a block chain is. The blocks could have anything in them. The links can represent anything. The data could be stored anywhere and copied anywhere.
+Think of a web page that has a link back to the previous page. If that previous page changes, the link becomes invalid.
 
-# Examples
+And that is the core of what blockchain is what a block chain is. The blocks can hold any data. The links between them can represent anything. And the blockchain itself can be stored - and copied - anywhere. However writing from the supply chain world embellish this core - as we shall see.
 
-## HBR
+## Blockchain according to HBR
 
-But that's now what you'd think if you literature on the subject that's targeted at supply chain professionals. Let's look at some examples. First off the Harvard Business Review:
+From the article ''
 
 *"When blockchain record keeping is used, assets such as units of inventory, orders, loans, and bills of lading are given unique identifiers, which serve as digital tokens (similar to bitcoins). Additionally, participants in the blockchain are given unique identifiers, or digital signatures, which they use to sign the blocks they add to the blockchain. Every step of the transaction is then recorded on the blockchain as a transfer of the corresponding token from one participant to another."*
 
 There's nothing in blockchain that will inherently provide any of these benefits. Everything they have listed - unique identifiers, digital signatures, recording every step of the transaction - is possible - and much faster - with regular databases.
 
-## Planet Tracker
+## Blockchain according to Planet Tracker
 
 Let's move on to this from Planet tracker, which describes itself as "a non-profit financial think thank". To their credit, they have a much more restrained description:
 
@@ -26,7 +26,7 @@ Planet Tracker at least sounds like it's on Planet Earth, but still lauds things
 
 There's no reason that a non-blockchain database cannot create a "decentralized, peer-to-peer network". Nothing inherent in blockchain will help you create a "decentralized, peer-to-peer network". That's not to say there aren't solutions utilising block chain that won't help you do this - there are - but blockchain has zero to do with it.
 
-## Deloitte
+## Blockchain according to Deloitte
 
 Departing planet tracker on planet earth, we move onto Deloitte, one of the big four accounting firms. And I quote:
 
