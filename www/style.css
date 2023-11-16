@@ -54,8 +54,6 @@ footer {
 }
 
 h1, h2, h3 {
-	font-variant: small-caps;
-	text-transform: capitalize;
 	margin: 0;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
