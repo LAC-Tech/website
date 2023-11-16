@@ -13,4 +13,4 @@ I'm a solo software consultant - mainly working in supply chain traceability.
 
 My technical interests are in partition-tolerant distributed systems - especially databases that can function under adverse network conditions. I'm a big proponent of CRDTs, event sourcing, and local-first. Recently I've been getting into systems programming and data storage.
 
-If have a comment, want to say hi, or you're interested in bringing me in as a consultant, feel free to [contact](/contact.html) me using the link provided.
+If you have a comment, are interested in bringing me in as a consultant, or just want to say hi, feel free to [contact](/contact.html) me using the link provided.
