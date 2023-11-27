@@ -94,6 +94,7 @@ if (command === 'clean') {
 const render = filename => data => new Promise((resolve, reject) => {
 	ejs.renderFile(filename, data, async (err, str) => {
 		if (err) {
+			console.log(`filename: ${filename}`)
 			reject(err)
 		} else {
 			resolve(str)
