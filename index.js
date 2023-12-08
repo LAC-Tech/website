@@ -94,7 +94,6 @@ if (command === 'clean') {
 const render = filename => data => new Promise((resolve, reject) => {
 	ejs.renderFile(filename, data, async (err, str) => {
 		if (err) {
-			console.log(`filename: ${filename}`)
 			reject(err)
 		} else {
 			resolve(str)
@@ -113,6 +112,7 @@ if (command === 'build') {
 			const { data, content } = matter(inputContent)
 
 			return renderPage({...data, body: marked(content)})
+				.catch(() => console.error(`PAGE ERROR: ${src}`))
 				.then(htmlStr => fs.writeFile(dest, htmlStr, 'utf-8'))
 		})
 	}))
@@ -127,7 +127,9 @@ if (command === 'build') {
 				title, 
 				type: 'article', 
 				body: marked(content)
-			}).then(htmlStr => fs.writeFile(dest, htmlStr, 'utf-8'))
+			})
+			.catch(() => console.error(`BLOG ERROR: ${src}`))
+			.then(htmlStr => fs.writeFile(dest, htmlStr, 'utf-8'))
 		})
 	}))
 	console.log("Converted blogs to html")
