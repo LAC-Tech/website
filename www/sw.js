@@ -1,5 +1,8 @@
+console.log("run service worker")
+
 // In-case the cache ever gets filled with rubbish in prod, this can be changed
-const cacheName = 'd44ece6c-bb0a-4dd9-9366-8205c5cfb2ff'
+// I think this needs to happen every time an html page is changed
+const cacheName = 'cf12ac92-df2a-4f92-800a-be70c0fd5739'
 
 self.addEventListener('install', event => {
 	event.waitUntil(
@@ -29,13 +32,11 @@ self.addEventListener('activate', async event => {
 self.addEventListener('fetch', event => {
 	// Check if this is a navigation request
 	const {request} = event
-
 	/* 
 		This hits the cache then the network.
 		Assumes if the name of an image hasn't changed the image hasn't changed
 	*/
 	if (request.destination === 'image') {
-		
 		const res = tryCache(request).then(r => r ?? tryNetwork(request))
 		return event.respondWith(res);
 	} else if (

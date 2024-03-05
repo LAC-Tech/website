@@ -4,9 +4,11 @@
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YVVNR2QNZ7">	</script>
 		<script>
-		  if ("serviceWorker" in navigator) {
-	      navigator.serviceWorker.register("/sw.js", {scope: "/",})
-	     }
+			navigator.serviceWorker.getRegistrations().then(registrations => {
+					for(let registration of registrations) {
+							registration.unregister();
+					} 
+			});
 
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
@@ -65,7 +67,7 @@
 		</main>
 		<footer>
 			<span id="copyright">
-				© 2021 - 2024 Lewis Campbell Technologies Ltd.
+				© 2021 - 2024, Lewis Campbell Technologies Ltd.
 			</span>
 		</footer>
 	</body>
