@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-	font-family: 'Courier New', monospace;
+	font-family: Garamond, serif;
 	margin: 0;
 	color: var(--fg);
 	background: var(--bg);
