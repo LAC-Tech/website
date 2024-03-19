@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "static/blog/240319 The Four Kinds of Supply Chain Data Capture.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "static/blog/240319 The Four Kinds of Supply Chain Data Capture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "static/blog/240319 The Four Kinds of Supply Chain Data Capture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "static/blog/240319 The Four Kinds of Supply Chain Data Capture.md"
               }
             }
           }
@@ -148,6 +148,13 @@
   },
   "active": "847a00584edbc691",
   "lastOpenFiles": [
+    "static/blog/231112 Wisdom from Computing's Past.md",
+    "static/blog/221001 Software Maintenance for Business Owners.md",
+    "static/blog/220205 A Sheep Ate My Internet.md",
+    "static/blog/220509 95% Programming.md",
+    "static/blog/240319 The Four Kinds of Supply Chain Data Capture.md",
+    "static/img/scmdatacapture.drawio.png",
+    "README.md",
     "www/talks.html",
     "www/projects.html",
     "www/index.html",
@@ -163,15 +170,11 @@
     "www/img/hashed/hero-42dfafe7792ebc52.jpg",
     "www/img/hashed/icon512-cd31b61c9fc843f4.png",
     "www/img/hashed/icon46-112e6420dd915aad.png",
-    "www/img/hashed/icon32-a2fbcf30da694fcf.png",
     "www/img/icon",
     "www/img",
     "image.mk",
     "static/img/makefile",
-    "static/blog/221001 Software Maintenance for Business Owners.md",
     "static/blog/220723 Tech Burnout - A Retrospective.md",
-    "static/blog/220509 95% Programming.md",
-    "static/blog/220205 A Sheep Ate My Internet.md",
     "static/talks.md",
     "static/projects.md",
     "static/index.md",
@@ -190,8 +193,6 @@
     "spa/sync/node_modules/@jridgewell/trace-mapping/node_modules/@jridgewell/sourcemap-codec/README.md",
     "spa/sync/node_modules/@rollup/plugin-babel/node_modules/@types/estree/README.md",
     "spa/sync/node_modules/workbox-build/node_modules/@types/estree/README.md",
-    "spa/sync/node_modules/workbox-build/node_modules/@rollup/pluginutils/README.md",
-    "spa/sync/node_modules/workbox-build/node_modules/@rollup/pluginutils/CHANGELOG.md",
-    "spa/sync/node_modules/workbox-build/node_modules/@rollup/plugin-replace/README.md"
+    "spa/sync/node_modules/workbox-build/node_modules/@rollup/pluginutils/README.md"
   ]
 }
