@@ -129,7 +129,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "847a00584edbc691",
+  "active": "065267625edcbe36",
   "lastOpenFiles": [
     "static/blog/231112 Wisdom from Computing's Past.md",
     "static/blog/221001 Software Maintenance for Business Owners.md",

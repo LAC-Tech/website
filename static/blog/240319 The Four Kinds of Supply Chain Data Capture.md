@@ -11,12 +11,18 @@ So from this, we have our four kinds:
   
 But we also have two kinds of data:
 
-- Inside Data
-- Outside Data
+- Near Data
+- Far Data
   
 Let's dive into these definitions.
-## Inside Data & Outside Data
-First imagine your own data system. This might be an ERP, TMS, WMS, your own custom database, or even a SaaS product. It's where data exists in a state where it can provide some value to your organisation; something from which forecasts, analysis, notifications etc can be derived.
+
+## Data System
+
+Where your data "lives". Any value add for your data - forecasts, analysis, investigations, etc - likely takes place here. This might be an ERP, TMS, WMS, or your own custom business software.
+
+## Data, Near & Far
+
+I must stress that this "Near & Far" is not dependent on geography. Consider a facility in Taipei, Taiwan, that is sending purchase orders to a supplier in Asunción, Paraguay. Geographically, it's hard for any two cities to be further apart on this earth. But if the data format for purchase orders in Taipei happens to be the exact same format as Asunción uses in their internal data system, they are near in this taxonomy. On the other hand a purchaser and a supplier could be next door to each other but use completely incompatible formats, and so be "far".
 
 Any data first captured and recorded in a format your data systems can work with is *Inside Data*. It has a more or less rigid shape, understandable to your systems, and is owned and managed by you.
 
@@ -24,7 +30,7 @@ By contrast, the shape of Outside Data is not the same as what's in your data sy
 
 Outside and Inside are not relative to your organisation; they simply refer to data originally captured in the same data formats you use in your own data system. You can create Outside data internally, and Inside data externally, as we shall see.
 
-(My spark of inspiration came from the concepts of "Data on the Outside Inside" & "Data on the Outside" by Pat Helland, first coined in 2005 and later [distilled in 2016](https://queue.acm.org/detail.cfm?id=2884038), though I've taken it in a slightly different direction.)
+(My spark of inspiration came from "Data on the Outside Inside" & "Data on the Outside" by Pat Helland, [first coined in 2005](https://www.cidrdb.org/cidr2005/papers/P12.pdf) and later [distilled in 2016](https://queue.acm.org/detail.cfm?id=2884038) - though I have taken it in a different direction).
 ## Indirect, Direct, Manual & Automatic
 No we move onto data capture. First off, let's define "data capture" as simply acquiring inside data.
 
