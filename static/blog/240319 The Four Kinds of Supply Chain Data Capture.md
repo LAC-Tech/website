@@ -1,45 +1,32 @@
 Most of my tech career has been in and around the supply chain; from procurement to operations, from traceability to manufacturing. I've seen many different ways of getting data into systems, some simple, some complex, some ingenious and some horrifying. But I believe all these ways fall into four categories, and that these categories are understandable to both business and technical stakeholders.
-
 ## The Four Kinds
 
 We'll start from the top, here are the four kinds of supply chain data capture:
 
-So from this, we have our four kinds:
+From worst to best, these are:
 
 - Manual, Indirect
 - Manual, Direct
 - Automatic, Indirect
 - Automatic, Direct
   
-But we also have two kinds of data:
-
-- Near Data
-- Far Data
-  
 Let's dive into these definitions.
-
 ## Data System
 
-Where your data "lives". Any value add for your data - forecasts, analysis, investigations, etc - likely takes place here. This might be an ERP, TMS, WMS, or your own custom business software.
+Most supply chain organisations will have a data system they consider "theirs". Usually this is something like an ERP/TMS/WMS, but it could also be in-house business software. Whatever form it takes, it's where your data lives, and where value can be added to it - your own forecasts, analysis etc take place here.
 
+For the purpose of this article, I will call this your Data System.
 ## Data, Near & Far
 
-I must stress that this "Near & Far" is not dependent on geography. Consider a facility in Taipei, Taiwan, that is sending purchase orders to a supplier in Asunción, Paraguay. Geographically, it's hard for any two cities to be further apart on this earth. But if the data format for purchase orders in Taipei happens to be the exact same format as Asunción uses in their internal data system, they are near in this taxonomy. On the other hand a purchaser and a supplier could be next door to each other but use completely incompatible formats, and so be "far".
-## Inside Data & Outside Data
+Your Data System stores data in a specific *format*; you might think of this as the 'shape' or 'format' of a data; more technical readers will know this as a 'schema'. 
 
-First imagine your own data system. This might be an ERP, TMS, WMS, your own custom database, or even a SaaS product. It's where data exists in a state where it can provide some value to your organisation; something from which forecasts, analysis, notifications etc can be derived.
+Data flows into your system from suppliers, customers, and your own staff. When this data has a format similar to what's in your data system, we call it *Near Data*; when the format differs greatly, we call this *Far Data*. This is a spectrum; we can talk of data being *nearer* and *further* to your own data system. The further data is, the more work is needed it for it be useful and usable by your Data System.
 
-Any data first captured and recorded in a format your data systems can work with is *Inside Data*. It has a more or less rigid shape, understandable to your systems, and is owned and managed by you.
-
-By contrast, the shape of Outside Data is not the same as what's in your data systems. This is the bread and butter of many supply chain companies. Outside Data comes in as documents, spreadsheets & scanned images. These represent purchase orders, consignments and declarations, and are sent hither and thither as email messages, direct messages & shared files. It usually arrives in a shape that you do not control, and may not be equipped to deal with.
-
-Outside and Inside are not relative to your organisation; they simply refer to data originally captured in the same data formats you use in your own data system. You can create Outside data internally, and Inside data externally, as we shall see.
-
-(My spark of inspiration came from "Data on the Outside Inside" & "Data on the Outside" by Pat Helland, [first coined in 2005](https://www.cidrdb.org/cidr2005/papers/P12.pdf) and later [distilled in 2016](https://queue.acm.org/detail.cfm?id=2884038) - though I have taken it in a different direction).
+"Near & Far" is independent of physical distance. A node in the supply chain may purchase materials from a facility right next door, but find the accompanying data to be Far Data. Conversely, it may be sourced from the opposite end of the earth, but happen to use the same data standards, and it would be Near Data.
 
 ## Indirect, Direct, Manual & Automatic
 
-No we move onto data capture. First off, let's define "data capture" as simply acquiring inside data.
+
 
 First we ask - is any Outside Data involved in this process? If there is, we call this indirect. If not, if there are no intermediate steps, then we call it direct.
 

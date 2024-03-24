@@ -147,8 +147,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "065267625edcbe36",
+  "active": "847a00584edbc691",
   "lastOpenFiles": [
+    "static/drawio/scmdatacapture.drawio",
     "static/blog/231112 Wisdom from Computing's Past.md",
     "static/blog/221001 Software Maintenance for Business Owners.md",
     "static/blog/220205 A Sheep Ate My Internet.md",
@@ -193,7 +194,6 @@
     "spa/sync/node_modules/@rollup/plugin-babel/node_modules/@rollup/pluginutils/CHANGELOG.md",
     "spa/sync/node_modules/@jridgewell/trace-mapping/node_modules/@jridgewell/sourcemap-codec/README.md",
     "spa/sync/node_modules/@rollup/plugin-babel/node_modules/@types/estree/README.md",
-    "spa/sync/node_modules/workbox-build/node_modules/@types/estree/README.md",
-    "spa/sync/node_modules/workbox-build/node_modules/@rollup/pluginutils/README.md"
+    "spa/sync/node_modules/workbox-build/node_modules/@types/estree/README.md"
   ]
 }
